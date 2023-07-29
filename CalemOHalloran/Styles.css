@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Your existing CSS styles for body, header, and footer */
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between options as needed */
+}
+
+.option {
+    font-size: 18px;
+}
+
+.option a {
+    text-decoration: none; /* Remove the underline from anchor elements */
+    color: #000; /* Set the color of the anchor text to black */
+}
+
+.logo {
+    width: 120px;
+    position: relative;
+    left: 15%;
+}
+
+.logo img {
+    width: 100%; /* Set the image width to fit its container */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 120px; /* Set a maximum width for the image */
+}
+
+/* Your existing CSS styles for the logo */
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 15%;
+    font-family: "Helvetica", Arial, sans-serif; /* Use the same formal and bold font */
+    font-weight: bold; /* Add extra boldness */
+}
+
+/* Your existing CSS styles for the button */
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* Add position relative to allow using left property */
+    left: 15%; /* Move the main content inward by 15% from the left side */
+    max-width: 80%;
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 30px; /* Add padding to move the text inward on the right */
+}
+
+.left-content h1 {
+    font-size: 46px;
+    margin-bottom: .5em;
+    margin-top: -1.5rem;
+    max-width: 50%;
+}
+
+.left-content p {
+    font-size: 18px;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.right-content {
+    flex: 1; /* Allow the image to take the remaining space on the right */
+}
+
+.right-image-container {
+    display: flex;
+    justify-content: flex-end; /* Push the image to the right */
+}
+
+.right-content img {
+    max-width: 300px; /* Set the desired maximum width for the image */
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Your existing CSS styles for the right-content img */
+
+/* Your existing CSS styles for .stay-in-touch */
+
+.stay-in-touch {
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+.stay-in-touch h2 {
+    font-size: 24px;
+}
+
+.stay-in-touch hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.footer-content {
+    background-color: #df1212;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+    text-align: left;
+    margin-left: 10%; /* Move the left entity inward by 10% */
+}
+
+.middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.middle img {
+    max-width: 100px;
+    height: auto;
+    mix-blend-mode: color-burn;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+    margin-right: 10%; /* Move the right entity inward by 10% */
+}
+
+.left img {
+    width: 24px;
+    height: 24px;
+}
+
+.left a,
+.right {
+    font-size: 16px;
+}
+
+.skills-section {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    margin-top: 30px; /* Add margin to separate it from the previous section */
+  }
+  
+  .skills-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-section hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+  
+  .skill-cards-container {
+    text-align: center;
+  }
+  
+  .skill-card {
+    display: inline-block;
+    max-width: calc(33.33% - 30px); /* Adjust the max-width to distribute evenly with margins */
+    margin: 10px 15px; /* 15px instead of 15% for consistent spacing */
+    text-align: center;
+  }
+  
+  .skill-card img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .skill-text {
+    margin-top: 10px;
+  }
+  
+  .skill-text h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .skill-text p {
+    font-size: 14px;
+  }
+
+  .skill-card .long-text {
+    display: none;
+  }
+  
+  .skill-card .show-long-text {
+    display: block;
+  }
+  
+  .skill-card .read-more-button {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+
+  /*java section */
+
+  .content {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .long-text {
+    display: none;
+  }
+
+  .show-long-text {
+    max-height: none;
+  }
+
+  .read-more-button {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  
