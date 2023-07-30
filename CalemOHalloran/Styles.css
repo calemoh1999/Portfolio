@@ -211,8 +211,8 @@ header {
 .skill-card-container {
   display: flex;
   justify-content: space-between;
-  max-width: 700px; /* Set a maximum width for the container */
-  margin: 0 auto; /* Center the container within the skills section */
+  width: 80%; /* Adjust the width to leave 10% inset from both left and right */
+  margin: 0 auto; /* Center the skill card container */
 }
 
 .skill-card {
@@ -222,9 +222,8 @@ header {
 }
 
 .skill-card img {
-  max-width: 120%;
+  max-width: 80%; /* Make the images slightly bigger by reducing the max-width value */
   height: auto;
-  border-radius: 50%;
   object-fit: cover; /* Maintain the aspect ratio of the images */
 }
 
