@@ -190,94 +190,54 @@ header {
 }
 
 .skills-section {
-    text-align: center;
-    background-color: #f8f8f8;
-    padding: 30px 0;
-    margin-top: 30px; /* Add margin to separate it from the previous section */
-  }
-  
-  .skills-section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .skills-section hr {
-    border: none;
-    height: 1px;
-    background-color: #333;
-    width: 50%;
-    margin: 0 auto 20px;
-  }
-  
-  .skill-cards-container {
-    text-align: center;
-  }
-  
-  .skill-card {
-    display: inline-block;
-    max-width: calc(33.33% - 30px); /* Adjust the max-width to distribute evenly with margins */
-    margin: 10px 15px; /* 15px instead of 15% for consistent spacing */
-    text-align: center;
-  }
-  
-  .skill-card img {
-    max-width: 80%;
-    height: auto;
-    border-radius: 50%;
-  }
-  
-  .skill-text {
-    margin-top: 10px;
-  }
-  
-  .skill-text h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  
-  .skill-text p {
-    font-size: 14px;
-  }
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 30px 0;
+}
 
-  .skill-card .long-text {
-    display: none;
-  }
-  
-  .skill-card .show-long-text {
-    display: block;
-  }
-  
-  .skill-card .read-more-button {
-    display: block;
-    margin-top: 10px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 5px;
-  }
+.skills-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
-  /*java section */
+.skills-section hr {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  width: 50%;
+  margin: 0 auto 20px;
+}
 
-  .content {
-    max-height: 100px;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-  }
+.skill-card-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container within the skills section */
+}
 
-  .long-text {
-    display: none;
-  }
+.skill-card {
+  flex: 1; /* Make the skill cards take equal space within the container */
+  text-align: center;
+}
 
-  .show-long-text {
-    max-height: none;
-  }
+.skill-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
 
-  .read-more-button {
-    display: block;
-    margin-top: 10px;
-    cursor: pointer;
-  }
-  
+.skill-text {
+  margin-top: 10px;
+}
+
+.skill-text h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.skill-text p {
+  font-size: 14px;
+}
+
+
   
