@@ -129,21 +129,19 @@ header {
 }
 
 .stay-in-touch h2 {
-  font-family: "Helvetica", Arial, sans-serif; /* Use a professional font */
-  font-size: 28px;
-  font-weight: bold;
+  font-family: "Shadows Into Light", cursive; /* Use a handwriting style font */
+  font-size: 36px;
+  font-weight: normal; /* Use normal font weight for handwriting style */
   margin-bottom: 10px;
   color: #333; /* Set the color of the heading */
 }
 
-.stay-in-touch hr {
-  border: none;
-  height: 2px;
-  /* Create a fancy line using gradients */
-  background: linear-gradient(90deg, #007bff, #007bff 50%, transparent 50%);
-  background-size: 4px 100%; /* Adjust the line thickness */
-  width: 50%;
-  margin: 10px auto;
+.stay-in-touch .squiggle-line {
+  height: 20px;
+  width: 100px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><path d="M 0 10 Q 25 5, 50 10 T 100 10" fill="none" stroke="#007bff" stroke-width="2"/></svg>');
+  background-repeat: repeat-x;
+  margin: 0 auto;
 }
 
 .footer-content {
