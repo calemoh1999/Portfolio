@@ -222,7 +222,7 @@ header {
 }
 
 .skill-card img {
-  max-width: 60%;
+  max-width: 120%;
   height: auto;
   border-radius: 50%;
   object-fit: cover; /* Maintain the aspect ratio of the images */
