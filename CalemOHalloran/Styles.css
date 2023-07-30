@@ -129,19 +129,18 @@ header {
 }
 
 .stay-in-touch h2 {
-  font-family: "Shadows Into Light", cursive; /* Use a handwriting style font */
+  font-family: "Dancing Script", cursive; /* Use the "Dancing Script" handwriting font */
   font-size: 36px;
   font-weight: normal; /* Use normal font weight for handwriting style */
   margin-bottom: 10px;
   color: #333; /* Set the color of the heading */
 }
 
-.stay-in-touch .squiggle-line {
-  height: 20px;
-  width: 100px;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><path d="M 0 10 Q 25 5, 50 10 T 100 10" fill="none" stroke="#007bff" stroke-width="2"/></svg>');
-  background-repeat: repeat-x;
-  margin: 0 auto;
+.stay-in-touch .signature-line {
+  height: 2px;
+  width: 150px;
+  background-color: #007bff; /* Set the color of the signature line */
+  margin: 10px auto; /* Center the line horizontally */
 }
 
 .footer-content {
