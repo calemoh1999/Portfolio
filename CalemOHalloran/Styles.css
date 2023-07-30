@@ -220,12 +220,7 @@ header {
   width: 30%; /* Set a fixed width for each skill card container */
 }
 
-.skill-content {
-  display: inline-block; /* Set display to inline-block to make width fit content */
-  text-align: center;
-}
-
-.skill-content img {
+.skill-card img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
@@ -235,16 +230,6 @@ header {
 .skill-text {
   margin-top: 10px;
   max-width: 100%; /* Set the text box width to match the width of the image */
-}
-
-
-.skill-text h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-.skill-text p {
-  font-size: 14px;
 }
 
 
