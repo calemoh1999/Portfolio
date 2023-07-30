@@ -217,11 +217,12 @@ header {
 
 .skill-card {
   text-align: center;
-  width: 30%; /* Set a fixed width for each skill card container */
+  width: calc(30% - 20px); /* Set a fixed width for each skill card container with spacing */
+  margin: 10px; /* Add margin to space out the skill cards */
 }
 
 .skill-card img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 50%;
   object-fit: cover; /* Maintain the aspect ratio of the images */
