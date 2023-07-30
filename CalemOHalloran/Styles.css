@@ -129,7 +129,8 @@ header {
 }
 
 .stay-in-touch h2 {
-  font-size: 24px;
+  font-family: "Helvetica", Arial, sans-serif; /* Use a professional font */
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #333; /* Set the color of the heading */
@@ -138,7 +139,9 @@ header {
 .stay-in-touch hr {
   border: none;
   height: 2px;
-  background-color: #007bff; /* Set the color of the line */
+  /* Create a fancy line using gradients */
+  background: linear-gradient(90deg, #007bff, #007bff 50%, transparent 50%);
+  background-size: 4px 100%; /* Adjust the line thickness */
   width: 50%;
   margin: 10px auto;
 }
