@@ -120,21 +120,27 @@ header {
 /* Your existing CSS styles for .stay-in-touch */
 
 .stay-in-touch {
-    text-align: center;
-    background-color: #fff;
-    padding-bottom: 10px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .stay-in-touch h2 {
-    font-size: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* Set the color of the heading */
 }
 
 .stay-in-touch hr {
-    border: none;
-    height: 1px;
-    background-color: #333;
-    width: 50%;
-    margin: 10px auto;
+  border: none;
+  height: 2px;
+  background-color: #007bff; /* Set the color of the line */
+  width: 50%;
+  margin: 10px auto;
 }
 
 .footer-content {
