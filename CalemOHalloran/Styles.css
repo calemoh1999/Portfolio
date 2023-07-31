@@ -246,7 +246,7 @@ header {
 /* Contact Section */
 
 .contact-box-container {
-  display: flex; /* Set it to a flex container */
+  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px; /* Adjust the gap between the contact boxes */
@@ -259,8 +259,7 @@ header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   transition: box-shadow 0.3s ease;
-  flex: 1;
-  width: 200px;
+  flex: 1; /* Make all boxes equally share the available space */
   height: 120px;
   display: flex;
   flex-direction: column;
@@ -282,4 +281,5 @@ header {
 .contact-box:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
+
 
