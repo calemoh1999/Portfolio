@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // POST route to handle the form submission
-app.post('/contact', (req, res) => {
+app.post('/send', (req, res) => {
   const { name, email, subject, message } = req.body;
 
   // Create a Nodemailer transporter
