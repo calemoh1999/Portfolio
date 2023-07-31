@@ -26,7 +26,7 @@ app.post('/submit', (req, res) => {
     service: 'Gmail', // e.g., Gmail, Outlook, etc.
     auth: {
       user: 'portfolioformscalem@gmail.com', // Your email address
-      pass: 'kpghdnrtriqrvxbt', // Your email password or an application-specific password
+      pass: 'kpg-hdnr-triq-rvxbt', // Your email password or an application-specific password
     },
   });
 
