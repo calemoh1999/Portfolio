@@ -260,6 +260,7 @@ header {
   border-radius: 5px;
   transition: box-shadow 0.3s ease;
   flex: 1; /* Use flex: 1 to make all boxes equally spaced */
+  width: 200px; /* Set a fixed width for all boxes */
 }
 
 .contact-box img {
@@ -276,4 +277,5 @@ header {
 .contact-box:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase the shadow on hover */
 }
+
 
