@@ -1,51 +1,46 @@
 const express = require('express');
+const nodemailer = require('nodemailer');
 const app = express();
-const port = 3000; // Choose a port number for your server
+const port = 3000; // You can change this to any available port you prefer
 
-// Middleware to parse request bodies
-app.use(express.urlencoded({ extended: true }));
+// Middleware to parse incoming request data
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
-// Server route to handle form submissions (Step 6 in previous response)
-app.post('/send-email', (req, res) => {
+// POST route to handle the form submission
+app.post('/contact', (req, res) => {
   const { name, email, subject, message } = req.body;
 
-  // Implement the Nodemailer code (Step 4 in previous response) to send the email
-
-  // Return a response to the client
-  res.json({ success: true, message: 'Email sent successfully!' });
-});
-
-// Start the server
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
-
-const nodemailer = require('nodemailer');
-
-// Function to send email using Nodemailer
-const sendEmail = (name, email, subject, message) => {
+  // Create a Nodemailer transporter
   const transporter = nodemailer.createTransport({
-    // Replace with your email service configuration
-    service: 'Gmail',
+    service: 'gmail',
     auth: {
-      user: 'calemohalloran99gmail.com', // Replace with your Gmail email address
-      pass: 'Monopoly20', // Replace with your Gmail email password
+      user: 'calemohalloran99@gmail.com', // Your email address
+      pass: 'Monopoly20', // Your email password (You might want to use environment variables here for security)
     },
   });
 
+  // Email content
   const mailOptions = {
-    from: 'calemohalloran99gmail.com',
-    to: 'calemohalloran99@gmail.com', // Replace with the recipient's email address
-    subject: Website,
+    from: email,
+    to: 'calemohalloran99@gmail.com', // Your email address
+    subject: subject,
     text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
   };
 
+  // Send the email
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.log('Error sending email:', error);
+      console.log(error);
+      res.status(500).send('Something went wrong. Please try again later.');
     } else {
-      console.log('Email sent:', info.response);
+      console.log('Email sent: ' + info.response);
+      res.send('Thank you for contacting us. We will get back to you soon.');
     }
   });
-};
+});
+
+// Start the server and listen for incoming requests
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
