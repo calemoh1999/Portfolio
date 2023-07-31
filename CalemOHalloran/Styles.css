@@ -362,7 +362,7 @@ header {
 
 .message-box {
   width: 20%;
-  margin-left: 5%;
+  margin-left: 1%;
   margin-top: 5%;
   margin-right: 10%; /* Added right margin to move the box away from the form */
   text-align: center;
