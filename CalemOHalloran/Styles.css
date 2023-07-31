@@ -248,6 +248,7 @@ header {
 .contact-box-container {
   display: flex;
   justify-content: space-between; /* Spread the boxes out */
+  align-items: flex-start; /* Align items at the start of the cross axis */
   gap: 20px; /* Add some spacing between the boxes */
 }
 
@@ -261,7 +262,7 @@ header {
   transition: box-shadow 0.3s ease;
   flex: 1;
   width: 200px;
-  height: 250px; /* Set a fixed height for all boxes */
+  height: 120px; /* Set a fixed height for all boxes */
 }
 
 .contact-box img {
@@ -278,6 +279,3 @@ header {
 .contact-box:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
-
-
-
