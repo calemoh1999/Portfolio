@@ -250,16 +250,18 @@ header {
   justify-content: center;
   align-items: center;
   gap: 30px; /* Adjust the gap between the contact boxes */
+  width: 100%; /* Make the container full width to center the boxes */
+  margin: 0 auto; /* Center the container */
+  max-width: 800px; /* Set a maximum width for the container */
 }
 
 .contact-box {
   background-color: #fff;
   padding: 20px;
-  margin: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   transition: box-shadow 0.3s ease;
-  width: 200px; /* Set a fixed width for the contact boxes */
+  flex: 1; /* Let the contact boxes flexibly fill the available space */
   height: 120px; /* Set a fixed height for the contact boxes */
   display: flex;
   flex-direction: column;
