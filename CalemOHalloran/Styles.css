@@ -363,12 +363,13 @@ header {
 .message-box {
   background-color: #fff; /* White background color */
   padding: 20px;
-  margin-left: 1%;
-  width: 20%;
-  border: 3px solid #007bff; /* Blue border around the message box */
+  margin-left: 5%; /* Adjust the margin-left to bring the box closer to the form */
+  width: 20%; /* Change the width to 20% */
+  border: 4px solid #007bff; /* Increase the border width to 4px */
   border-radius: 10px; /* Rounded corners for the border */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Larger box shadow for an attention-grabbing effect */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Increase the box shadow for a stronger effect */
 }
+
 
 .additional-text-box {
   background-color: #ffffff;
