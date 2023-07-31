@@ -1,6 +1,6 @@
-// index.js
 const express = require('express');
 const nodemailer = require('nodemailer');
+const path = require('path');
 require('dotenv').config();
 
 const app = express();
@@ -9,9 +9,12 @@ const port = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+// Serve static files from the "CalemOHalloran" folder
+app.use(express.static(path.join(__dirname, 'CalemOHalloran')));
+
 // Serve the index.html file
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(path.join(__dirname, 'CalemOHalloran', 'index.html'));
 });
 
 // Route to handle form submission
