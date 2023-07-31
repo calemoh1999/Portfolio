@@ -363,7 +363,7 @@ header {
 .message-box {
   width: 30%;
   margin-left: 5%;
-  margin-top: 5%; /* Adjust the margin to move it closer to the form */
+  margin-top: 5%;
   text-align: center;
 }
 
@@ -371,6 +371,13 @@ header {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+.additional-text-box {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .additional-text {
