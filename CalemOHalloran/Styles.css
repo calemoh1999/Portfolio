@@ -244,39 +244,38 @@ header {
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 /* Contact Section */
-.contact-section {
-    text-align: center;
-    background-color: #fff;
-    padding: 20px 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+
+.skills-section.contact-section {
+  background-color: #f8f8f8; /* Use the same background color as the skills section */
+  padding: 30px 0;
+  text-align: center;
 }
 
 .contact-section h2 {
-    font-family: "Dancing Script", cursive; /* Use the "Dancing Script" handwriting font */
-    font-size: 36px;
-    font-weight: normal; /* Use normal font weight for handwriting style */
-    margin-bottom: 10px;
-    color: #333; /* Set the color of the heading */
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .contact-section .signature-line {
-    height: 2px;
-    width: 150px;
-    background-color: #007bff; /* Set the color of the signature line */
-    margin: 10px auto; /* Center the line horizontally */
+  border: none;
+  height: 1px;
+  background-color: #333;
+  width: 50%;
+  margin: 0 auto 20px;
 }
 
 .contact-box {
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
-    text-align: center;
-    font-size: 18px;
+  background-color: #fff; /* White background for each box */
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
 }
 
 .contact-box img {
-    max-width: 60px;
-    height: auto;
-    margin-bottom: 10px;
+  max-width: 50px; /* Adjust the size of the image as needed */
 }
-  
+
+.contact-box p {
+  font-size: 16px;
+  margin-top: 10px;
+}
