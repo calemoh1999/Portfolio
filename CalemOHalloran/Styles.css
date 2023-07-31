@@ -246,7 +246,7 @@ header {
 /* Contact Section */
 
 .skills-section.contact-section {
-  background-color: #f8f8f8; /* Use the same background color as the skills section */
+  background-color: #f8f8f8;
   padding: 30px 0;
   text-align: center;
 }
@@ -264,18 +264,31 @@ header {
   margin: 0 auto 20px;
 }
 
+.contact-box-container {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-box {
-  background-color: #fff; /* White background for each box */
+  background-color: #fff;
   padding: 20px;
   margin: 10px;
   display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  border-radius: 5px; /* Add some border-radius for a rounded look */
+  transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
 }
 
 .contact-box img {
-  max-width: 50px; /* Adjust the size of the image as needed */
+  max-width: 50px;
 }
 
 .contact-box p {
   font-size: 16px;
   margin-top: 10px;
 }
+
+.contact-box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase the shadow on hover */
+}
+
