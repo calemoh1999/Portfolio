@@ -360,17 +360,20 @@ header {
   cursor: pointer;
 }
 
-.message-me-box {
+.message-box {
   width: 30%; /* Adjust the width to fit your desired size */
   margin-left: 5%; /* Adjust the margin to separate it from the form */
+  margin-top: 20px; /* Adjust the margin to move it closer to the form */
   text-align: center;
 }
 
 .message-me {
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 10px; /* Add margin between "Message me" and the additional text */
 }
 
 .additional-text {
   font-size: 16px;
 }
+
