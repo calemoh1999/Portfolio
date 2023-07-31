@@ -360,32 +360,17 @@ header {
   cursor: pointer;
 }
 
+.message-me-box {
+  width: 30%; /* Adjust the width to fit your desired size */
+  margin-left: 5%; /* Adjust the margin to separate it from the form */
+  text-align: center;
+}
+
 .message-me {
   font-size: 20px;
   font-weight: bold;
 }
 
 .additional-text {
-  margin-top: 10px;
   font-size: 16px;
-}
-
-
-
-
-.message-me-box {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 25%;
-}
-
-.message-me-box h3 {
-  font-size: 20px;
-}
-
-#message-me-box {
-  width: 100%;
-  resize: none;
 }
