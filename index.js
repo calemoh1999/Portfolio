@@ -25,14 +25,14 @@ app.post('/submit', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'Gmail', // e.g., Gmail, Outlook, etc.
     auth: {
-      user: 'calemohalloran99@gmail.com', // Your email address
-      pass: 'Monopoly20', // Your email password or an application-specific password
+      user: 'portfolioformscalem@gmail.com', // Your email address
+      pass: 'Spurs123.', // Your email password or an application-specific password
     },
   });
 
   const mailOptions = {
     from: email,
-    to: 'calemohalloran99@gmail.com', // Replace this with your email address where you want to receive the messages
+    to: 'portfolioformscalem@gmail.com', // Replace this with your email address where you want to receive the messages
     subject: 'New Form Submission',
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
