@@ -281,6 +281,7 @@ header {
   transition: box-shadow 0.3s ease;
   flex: 1;
   height: 120px;
+  margin: 0 10px; /* Add margin between the boxes */
   display: flex;
   flex-direction: column;
   align-items: center;
