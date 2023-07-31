@@ -246,10 +246,10 @@ header {
 /* Contact Section */
 
 .contact-box-container {
-  display: flex;
+  display: flex; /* Set it to a flex container */
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
+  align-items: center;
+  gap: 30px; /* Adjust the gap between the contact boxes */
 }
 
 .contact-box {
@@ -261,8 +261,7 @@ header {
   transition: box-shadow 0.3s ease;
   flex: 1;
   width: 200px;
-  height: 250px;
-  /* Remove display: inline-block; */
+  height: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
