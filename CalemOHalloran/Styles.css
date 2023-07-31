@@ -361,12 +361,13 @@ header {
 }
 
 .message-box {
-  background-color: #f9f9f9; /* Light gray background color */
+  background-color: #fff; /* White background color */
   padding: 20px;
-  margin-left: 10%;
-  width: 30%;
-  border: 2px solid #007bff; /* Blue border around the message box */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a slight elevation effect */
+  margin-left: 1%;
+  width: 20%;
+  border: 3px solid #007bff; /* Blue border around the message box */
+  border-radius: 10px; /* Rounded corners for the border */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Larger box shadow for an attention-grabbing effect */
 }
 
 .additional-text-box {
