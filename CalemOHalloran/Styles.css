@@ -361,26 +361,20 @@ header {
 }
 
 .message-box {
-  background-color: #fff; /* White background color */
+  background-color: #fff;
   padding: 20px;
-  width: 20%; /* Change the width to 20% */
-  border: 4px solid #007bff; /* Increase the border width to 4px */
-  border-radius: 10px; /* Rounded corners for the border */
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); /* Increase the box shadow for a stronger effect */
-  position: absolute;
-  right: 10%; /* Adjust the right position to bring the box closer to the form */
-  top: 50%; /* Vertically center the message box */
-  transform: translateY(-50%); /* Adjust vertical positioning using transform */
+  width: 20%;
+  border: 4px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
-
-
-.additional-text-box {
-  background-color: #ffffff;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  margin-top: 10px; /* Added top margin to separate the boxes */
+.additional-text {
+  background-color: #fff;
+  padding: 20px;
+  border: 4px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
 .message-me {
