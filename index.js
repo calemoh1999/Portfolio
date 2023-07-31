@@ -2,6 +2,7 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
+const path = require('path');
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -9,10 +10,8 @@ const port = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-// Serve the index.html file
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
-});
+// Serve the static files from the CalemOHalloran folder
+app.use(express.static(path.join(__dirname, 'CalemOHalloran')));
 
 // Route to handle form submission
 app.post('/submit', (req, res) => {
@@ -29,7 +28,7 @@ app.post('/submit', (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'calemohalloran99@gmail.com', // Replace this with your email address where you want to receive the messages
+    to: 'portfolioformscalem@gmail.com', // Replace this with your email address where you want to receive the messages
     subject: 'New Form Submission',
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
