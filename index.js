@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, 'CalemOHalloran')));
 
 // Route to handle form submission
 app.post('/submit', (req, res) => {
-  const { name, email, message } = req.body;
+  const { name, email, subject, message } = req.body;
 
   // Use Nodemailer to send the email
   const transporter = nodemailer.createTransport({
@@ -29,7 +29,7 @@ app.post('/submit', (req, res) => {
   const mailOptions = {
     from: email,
     to: 'portfolioformscalem@gmail.com', // Replace this with your email address where you want to receive the messages
-    subject: 'New Form Submission',
+    subject: `New Form Submission - ${subject}`, // Include the 'subject' field here
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
 
