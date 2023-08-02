@@ -382,12 +382,17 @@ header {
 
 /* Additional styles for a more professional contact form appearance */
 
+contact-form-box {
+  margin-left: 15%;
+}
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
   font-size: 16px;
   border: 2px solid #ccc;
   padding: 15px;
+  border-radius: 10px; /* Add border-radius for a bubble-like appearance */
 }
 
 .contact-form input:focus,
@@ -396,25 +401,10 @@ header {
   outline: none;
 }
 
-.contact-form button {
-  background-color: #007bff;
-  color: #fff;
-  font-size: 18px;
-  padding: 15px 30px;
-  cursor: pointer;
-  border: none;
-}
-
-.contact-form button:hover {
-  background-color: #0056b3;
-}
-
-.contact-form-box {
-  margin-left: 15%;
-}
-
 .contact-form label {
   text-align: left;
+  display: block;
+  margin-bottom: 5px;
 }
 
 /* Add a subtle box shadow to the contact form box */
@@ -422,4 +412,17 @@ header {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Style the form button */
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px; /* Add border-radius for a bubble-like appearance */
+}
 
+.contact-form button:hover {
+  background-color: #0056b3;
+}
