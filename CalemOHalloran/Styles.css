@@ -344,12 +344,21 @@ header {
 
 .contact-form input,
 .contact-form textarea {
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: 100%;
+  max-width: 300px; /* Adjust this value as needed to control the maximum width */
+  font-size: 16px;
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  /* Adjust the width for smaller screens */
+  .contact-form input,
+  .contact-form textarea {
+    max-width: 250px;
+  }
+}
 .contact-form textarea {
   resize: vertical;
 }
