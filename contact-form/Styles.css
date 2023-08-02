@@ -389,20 +389,30 @@ header {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  max-width: 350px; /* Adjust this value as needed to control the maximum width */
+  max-width: 370px; /* Adjust this value as needed to control the maximum width */
   font-size: 16px;
   border: 2px solid #ccc;
   padding: 15px;
   border-radius: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  /* Adjust the width for smaller screens */
+/* Add a media query for smaller devices like phones */
+@media (max-width: 768px) {
+  .contact-form-box {
+    max-width: 90%; /* Adjust the max-width to fit the screen properly */
+    margin-left: 5%; /* Center the form on smaller screens */
+  }
+
   .contact-form input,
   .contact-form textarea {
-    max-width: 250px;
+    width: 100%; /* Set the width to 100% for smaller screens */
+    font-size: 16px;
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
   }
 }
+
 
 
 .contact-form input:focus,
