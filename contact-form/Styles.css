@@ -389,11 +389,21 @@ header {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
+  max-width: 300px; /* Adjust this value as needed to control the maximum width */
   font-size: 16px;
   border: 2px solid #ccc;
   padding: 15px;
-  border-radius: 10px; /* Add border-radius for a bubble-like appearance */
+  border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  /* Adjust the width for smaller screens */
+  .contact-form input,
+  .contact-form textarea {
+    max-width: 250px;
+  }
+}
+
 
 .contact-form input:focus,
 .contact-form textarea:focus {
