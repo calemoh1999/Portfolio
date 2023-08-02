@@ -1,3 +1,35 @@
+/* Add a media query for smaller devices like phones */
+@media (max-width: 768px) {
+  .contact-form-section {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  .contact-form-box {
+    max-width: 90%; /* Adjust the max-width to fit the screen properly */
+    margin: 0 auto; /* Center the form on smaller screens */
+  }
+
+  .contact-form label {
+    width: 100%; /* Make the labels take up full width */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Set the width to 100% for smaller screens */
+    max-width: 100%; /* Add max-width to keep them proportional to the form box */
+    font-size: 16px;
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box; /* Include padding and border within the width calculation */
+  }
+
+  /* Add spacing between the text boxes and the "Send Message" button */
+  .contact-form button {
+    margin-top: 10px;
+  }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -395,40 +427,6 @@ header {
   padding: 15px;
   border-radius: 10px;
 }
-
-/* Add a media query for smaller devices like phones */
-@media (max-width: 768px) {
-  .contact-form-section {
-    flex-direction: column; /* Stack elements vertically on smaller screens */
-  }
-
-  .contact-form-box {
-    max-width: 90%; /* Adjust the max-width to fit the screen properly */
-    margin: 0 auto; /* Center the form on smaller screens */
-  }
-
-  .contact-form label {
-    width: 100%; /* Make the labels take up full width */
-  }
-
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%; /* Set the width to 100% for smaller screens */
-    max-width: 100%; /* Add max-width to keep them proportional to the form box */
-    font-size: 16px;
-    border: 2px solid #ccc;
-    padding: 15px;
-    border-radius: 10px;
-    box-sizing: border-box; /* Include padding and border within the width calculation */
-  }
-
-  /* Add spacing between the text boxes and the "Send Message" button */
-  .contact-form button {
-    margin-top: 10px;
-  }
-}
-
-
 
 
 
