@@ -306,6 +306,8 @@ header {
 
 /* contact form CSS*/
 
+/* Your existing CSS styles */
+
 .contact-form-section {
   display: flex;
   justify-content: space-between;
@@ -336,6 +338,7 @@ header {
 
 .contact-form label {
   font-size: 16px;
+  font-weight: bold;
   margin-bottom: 5px;
 }
 
@@ -375,6 +378,48 @@ header {
 
 .additional-text {
   font-size: 20px;
+}
+
+/* Additional styles for a more professional contact form appearance */
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  padding: 15px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-form-box {
+  margin-left: 15%;
+}
+
+.contact-form label {
+  text-align: left;
+}
+
+/* Add a subtle box shadow to the contact form box */
+.contact-form-box {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
