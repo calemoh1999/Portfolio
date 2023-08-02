@@ -306,37 +306,34 @@ header {
 
 /* contact form CSS*/
 
+
+
 .contact-form-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 30px;
+  text-align: center;
   background-color: #f8f8f8;
+  padding: 30px 0;
+  display: flex; /* Add display flex to align items horizontally */
+  justify-content: space-between; /* Add space between the form and the message box */
 }
 
 .contact-form-box {
-  flex: 1;
-  max-width: 30%;
+  max-width: 400px;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-left: 22%; /* Add left margin to indent from the left side */
 }
 
-.contact-form-box h2 {
+.contact-form h2 {
   font-size: 24px;
   margin-bottom: 20px;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
+  text-align: left; /* Align the heading to the left */
 }
 
 .contact-form label {
   font-size: 16px;
   margin-bottom: 5px;
+  text-align: left; /* Align the labels to the left */
 }
 
 .contact-form input,
@@ -345,6 +342,7 @@ header {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  width: 100%; /* Set the input and textarea width to 100% */
 }
 
 .contact-form textarea {
@@ -362,8 +360,7 @@ header {
 
 .message-box {
   padding: 20px;
-  width: 20%;
-  margin-right: 20%;
+  max-width: 30%;
 }
 
 .additional-text {
@@ -376,5 +373,3 @@ header {
 .additional-text {
   font-size: 20px;
 }
-
-
