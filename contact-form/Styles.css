@@ -15,8 +15,7 @@
 
   .contact-form input,
   .contact-form textarea {
-    width: 100%; /* Set the width to 100% for smaller screens */
-    max-width: 100%; /* Add max-width to keep them proportional to the form box */
+    flex: 1; /* Let the text boxes grow and shrink based on available space */
     font-size: 16px;
     border: 2px solid #ccc;
     padding: 15px;
@@ -29,6 +28,8 @@
     margin-top: 10px;
   }
 }
+
+/* The rest of your CSS styles... */
 
 
 body {
