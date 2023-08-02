@@ -382,7 +382,7 @@ header {
 
 /* Additional styles for a more professional contact form appearance */
 
-contact-form-box {
+.contact-form-box {
   margin-left: 15%;
 }
 
