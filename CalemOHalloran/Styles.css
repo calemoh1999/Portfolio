@@ -389,7 +389,7 @@ margin-left: 15%;
 .contact-form input,
 .contact-form textarea {
 width: 100%;
-max-width: 300px; /* Adjust this value as needed to control the maximum width */
+max-width: 350px; /* Adjust this value as needed to control the maximum width */
 font-size: 16px;
 border: 2px solid #ccc;
 padding: 15px;
