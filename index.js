@@ -29,7 +29,7 @@ app.post('/submit', (req, res) => {
   const mailOptions = {
     from: email,
     to: 'portfolioformscalem@gmail.com', // Replace this with your email address where you want to receive the messages
-    subject: `New Form Submission - ${subject}`, // Include the 'subject' field here
+    subject: subject, // Include the 'subject' field here
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
 
