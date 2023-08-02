@@ -423,6 +423,7 @@ header {
 }
 
 /* Style the form button */
+/* Add margin to the "Send Message" button to create separation */
 .contact-form button {
   background-color: #007bff;
   color: #fff;
@@ -431,7 +432,9 @@ header {
   cursor: pointer;
   border: none;
   border-radius: 10px; /* Add border-radius for a bubble-like appearance */
+  margin-top: 20px; /* Add margin to create separation from the previous element */
 }
+
 
 .contact-form button:hover {
   background-color: #0056b3;
