@@ -1,0 +1,428 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Your existing CSS styles for body, header, and footer */
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between options as needed */
+}
+
+.option {
+    font-size: 18px;
+}
+
+.option a {
+    text-decoration: none; /* Remove the underline from anchor elements */
+    color: #000; /* Set the color of the anchor text to black */
+}
+
+.logo {
+    width: 120px;
+    position: relative;
+    left: 15%;
+}
+
+.logo img {
+    width: 100%; /* Set the image width to fit its container */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 120px; /* Set a maximum width for the image */
+}
+
+/* Your existing CSS styles for the logo */
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 15%;
+    font-family: "Helvetica", Arial, sans-serif; /* Use the same formal and bold font */
+    font-weight: bold; /* Add extra boldness */
+}
+
+/* Your existing CSS styles for the button */
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* Add position relative to allow using left property */
+    left: 15%; /* Move the main content inward by 15% from the left side */
+    max-width: 80%;
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 30px; /* Add padding to move the text inward on the right */
+}
+
+.left-content h1 {
+    font-size: 46px;
+    margin-bottom: .5em;
+    margin-top: -1.5rem;
+    max-width: 50%;
+}
+
+.left-content p {
+    font-size: 18px;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.right-content {
+    flex: 1; /* Allow the image to take the remaining space on the right */
+}
+
+.right-image-container {
+    display: flex;
+    justify-content: flex-end; /* Push the image to the right */
+}
+
+.right-content img {
+    max-width: 300px; /* Set the desired maximum width for the image */
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Your existing CSS styles for the right-content img */
+
+/* Your existing CSS styles for .stay-in-touch */
+
+.stay-in-touch {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.stay-in-touch h2 {
+  font-family: "Dancing Script", cursive; /* Use the "Dancing Script" handwriting font */
+  font-size: 36px;
+  font-weight: normal; /* Use normal font weight for handwriting style */
+  margin-bottom: 10px;
+  color: #333; /* Set the color of the heading */
+}
+
+.stay-in-touch .signature-line {
+  height: 2px;
+  width: 150px;
+  background-color: #007bff; /* Set the color of the signature line */
+  margin: 10px auto; /* Center the line horizontally */
+}
+
+.footer-content {
+    background-color: #df1212;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+    text-align: left;
+    margin-left: 10%; /* Move the left entity inward by 10% */
+}
+
+.middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.middle img {
+    max-width: 100px;
+    height: auto;
+    mix-blend-mode: color-burn;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+    margin-right: 10%; /* Move the right entity inward by 10% */
+}
+
+.left img {
+    width: 24px;
+    height: 24px;
+}
+
+.left a,
+.right {
+    font-size: 16px;
+}
+
+.skills-section {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 30px 0;
+}
+
+.skills-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skills-section hr {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  width: 50%;
+  margin: 0 auto 20px;
+}
+
+.skill-card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Adjust the width to leave 10% inset from both left and right */
+  margin: 0 auto; /* Center the skill card container */
+}
+
+.skill-card {
+  text-align: center;
+  width: calc(30% - 20px); /* Set a fixed width for each skill card container with spacing */
+  margin: 10px; /* Add margin to space out the skill cards */
+}
+
+.skill-card img {
+  max-width: 80%; /* Make the images slightly bigger by reducing the max-width value */
+  height: auto;
+  object-fit: cover; /* Maintain the aspect ratio of the images */
+}
+
+.skill-text {
+  margin-top: 10px;
+  max-width: 100%; /* Set the text box width to match the width of the image */
+}
+
+/* Contact styles*/
+
+/* Handwriting font import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* Contact Section */
+
+.contact-section {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 30px 0;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center; /* Add this line to center the "Contact" message */
+}
+
+.contact-section hr {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  width: 50%;
+  margin: 0 auto 20px;
+}
+
+.contact-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-box {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+  flex: 1;
+  height: 120px;
+  margin: 0 10px; /* Add margin between the boxes */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-box img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-box p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.contact-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* contact form CSS*/
+
+/* Your existing CSS styles */
+
+.contact-form-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: #f8f8f8;
+}
+
+.contact-form-box {
+  flex: 1;
+  max-width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 22%; /* Add left margin to indent from the left side */
+}
+
+.contact-form-box h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message-box {
+  padding: 20px;
+  width: 20%;
+  margin-right: 20%;
+}
+
+.additional-text {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(11, 139, 218, 0.5);
+}
+
+.additional-text {
+  font-size: 20px;
+}
+
+/* Additional styles for a more professional contact form appearance */
+
+.contact-form-box {
+  margin-left: 15%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 10px; /* Add border-radius for a bubble-like appearance */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact-form label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Add a subtle box shadow to the contact form box */
+.contact-form-box {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form button */
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px; /* Add border-radius for a bubble-like appearance */
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
