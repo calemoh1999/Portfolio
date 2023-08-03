@@ -308,6 +308,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
 /* Your existing CSS styles */
 
+/* Set the overall section styles */
 .contact-form-section {
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -315,10 +316,11 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   padding: 30px;
   background-color: #f8f8f8;
 }
+
 /* Set the container styles to hold the banner and contact form side by side */
 .contact-form-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center; /* Center vertically within the container */
   max-width: 800px; /* Adjust the maximum width of the container as needed */
 }
 
@@ -336,7 +338,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
 .contact-form-box {
   flex: 1;
-  max-width: 30%;
+  max-width: 70%; /* Adjust the width of the contact form to make it larger */
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -344,45 +346,43 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .contact-form-box h2 {
-font-size: 24px;
-margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .contact-form {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form label {
-font-size: 16px;
-font-weight: bold;
-margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .contact-form input,
 .contact-form textarea {
-padding: 10px;
-margin-bottom: 15px;
-border: 1px solid #ccc;
-border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .contact-form textarea {
-resize: vertical;
+  resize: vertical;
 }
 
 .contact-form button {
-background-color: #007bff;
-color: #fff;
-padding: 10px 20px;
-border: none;
-border-radius: 5px;
-cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* Additional styles for a more professional contact form appearance */
-
-
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -394,39 +394,36 @@ cursor: pointer;
   box-sizing: border-box; /* Include padding and border within the width calculation */
 }
 
-
-
 .contact-form input:focus,
 .contact-form textarea:focus {
-border-color: #007bff;
-outline: none;
+  border-color: #007bff;
+  outline: none;
 }
 
 .contact-form label {
-text-align: left;
-display: block;
-margin-bottom: 10px;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
 }
 
 /* Add a subtle box shadow to the contact form box */
 .contact-form-box {
-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Style the form button */
 /* Add margin to the "Send Message" button to create separation */
 .contact-form button {
-background-color: #007bff;
-color: #fff;
-font-size: 18px;
-padding: 15px 30px;
-cursor: pointer;
-border: none;
-border-radius: 10px; /* Add border-radius for a bubble-like appearance */
-margin-top: 20px; /* Add margin to create separation from the previous element */
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px; /* Add border-radius for a bubble-like appearance */
+  margin-top: 20px; /* Add margin to create separation from the previous element */
 }
 
-
 .contact-form button:hover {
-background-color: #0056b3;
+  background-color: #0056b3;
 }
