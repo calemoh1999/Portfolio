@@ -334,20 +334,6 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 /* Your existing CSS styles for .contact-section, .contact-section h2, and .contact-section hr */
 
 /* Center the contact form */
-.contact-form-section {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  padding: 30px;
-  background-color: #f8f8f8;
-}
-/* Add the following CSS to adjust the layout */
-
-/* Add the following CSS to adjust the layout */
-
-/* Add the following CSS to adjust the layout */
-
-/* Add the following CSS to adjust the layout */
 
 .contact-form-section {
   display: flex;
@@ -360,6 +346,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 .contact-banner {
   flex: 1;
   max-width: 10%;
+  height: 300px; /* Adjust this value to match the form's height */
   margin-right: 10px; /* Add a 10px gap between the banner and the form */
 }
 
