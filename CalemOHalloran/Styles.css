@@ -332,18 +332,21 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
 /* Contact Form Styles */
 
+/* Contact Form Styles */
+
 .contact-form-section {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   padding: 30px;
   background-color: #f8f8f8;
+  height: 120px; /* Set the height of the contact form section to match the form height */
 }
 
 /* Set the container styles to hold the banner and contact form side by side */
 .contact-form-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center; /* Center items vertically */
   max-width: 800px; /* Adjust the maximum width of the container as needed */
 }
 
@@ -351,6 +354,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 .banner {
   flex: 1;
   padding-right: 20px; /* Add some spacing between the banner and the form */
+  height: 120px; /* Set the height of the banner to match the form height */
 }
 
 .banner img {
@@ -367,6 +371,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 .contact-form-box h2 {
   font-size: 24px;
