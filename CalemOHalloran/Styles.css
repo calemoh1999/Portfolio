@@ -308,7 +308,30 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
 /* Your existing CSS styles */
 
-/* Set the overall section styles */
+/* Contact Section */
+
+.contact-section {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 30px 0;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-section hr {
+  border: none;
+  height: 1px;
+  background-color: #333;
+  width: 50%;
+  margin: 0 auto 20px;
+}
+
+/* Contact Form Styles */
+
 .contact-form-section {
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -320,7 +343,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 /* Set the container styles to hold the banner and contact form side by side */
 .contact-form-container {
   display: flex;
-  align-items: center; /* Center vertically within the container */
+  align-items: flex-start;
   max-width: 800px; /* Adjust the maximum width of the container as needed */
 }
 
@@ -338,7 +361,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
 .contact-form-box {
   flex: 1;
-  max-width: 70%; /* Adjust the width of the contact form to make it larger */
+  max-width: 70%; /* Adjust the maximum width of the contact form box as needed */
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -383,6 +406,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 /* Additional styles for a more professional contact form appearance */
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
