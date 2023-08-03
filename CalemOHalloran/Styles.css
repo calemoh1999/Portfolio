@@ -343,6 +343,8 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 /* Add the following CSS to adjust the layout */
 
+/* Add the following CSS to adjust the layout */
+
 .contact-form-section {
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -352,9 +354,10 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .banner {
+  flex: 1;
   max-width: 30%; /* Adjust the width of the banner image as needed */
-  height: auto; /* Allow the image to adjust its height while maintaining aspect ratio */
-  margin-right: 20px; /* Add a small gap between the banner and the form */
+  height: 100%; /* Make the banner image fill the height of the form */
+  object-fit: cover; /* Ensure the banner image maintains its aspect ratio */
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -367,6 +370,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 
 /* Additional styles for the contact form */
