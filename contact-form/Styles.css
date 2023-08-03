@@ -330,9 +330,18 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   margin: 0 auto 20px;
 }
 
-/* Contact Form Styles */
+/* Set the overall section styles */
+/* Your existing CSS styles for .contact-section, .contact-section h2, and .contact-section hr */
 
-/* Contact Form Styles */
+/* Center the contact form */
+.contact-form-section {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 30px;
+  background-color: #f8f8f8;
+}
+/* Add the following CSS to adjust the layout */
 
 .contact-form-section {
   display: flex;
@@ -340,33 +349,19 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   align-items: center; /* Center vertically */
   padding: 30px;
   background-color: #f8f8f8;
-  height: 120px; /* Set the height of the contact form section */
 }
 
-/* Set the container styles to hold the banner and contact form side by side */
-.contact-form-container {
-  display: flex;
-  align-items: center; /* Center items vertically */
-  max-width: 800px; /* Adjust the maximum width of the container as needed */
-  margin: 0 auto; /* Center the container horizontally */
-}
-
-/* Style the banner on the left side */
 .banner {
-  width: 30%; /* Adjust the width of the banner as needed */
-  height: 100%; /* Set the height of the banner to match the form height */
-  padding-right: 20px; /* Add some spacing between the banner and the form */
-}
-
-.banner img {
-  width: 100%; /* Set the width of the banner to fit its container */
-  height: 100%; /* Set the height of the banner to match the form height */
-  border-radius: 10px; /* Optionally, add a border-radius to the banner */
+  max-width: 30%; /* Adjust the width of the banner image as needed */
+  height: auto; /* Allow the image to adjust its height while maintaining aspect ratio */
+  margin-right: 20px; /* Add a small gap between the banner and the form */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form-box {
   flex: 1;
-  max-width: 70%; /* Adjust the maximum width of the contact form box as needed */
+  max-width: 60%; /* Adjust the width of the form container as needed */
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -374,22 +369,10 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 
-
-
-.contact-form-box h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
+/* Additional styles for the contact form */
 .contact-form {
   display: flex;
   flex-direction: column;
-}
-
-.contact-form label {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
 }
 
 .contact-form input,
@@ -398,6 +381,12 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .contact-form textarea {
@@ -411,31 +400,6 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-/* Additional styles for a more professional contact form appearance */
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  max-width: 100%; /* Set the maximum width of the text boxes to 100% of the parent container */
-  font-size: 16px;
-  border: 2px solid #ccc;
-  padding: 15px;
-  border-radius: 10px;
-  box-sizing: border-box; /* Include padding and border within the width calculation */
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-color: #007bff;
-  outline: none;
-}
-
-.contact-form label {
-  text-align: left;
-  display: block;
-  margin-bottom: 10px;
 }
 
 /* Add a subtle box shadow to the contact form box */
@@ -459,4 +423,3 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 .contact-form button:hover {
   background-color: #0056b3;
 }
-
