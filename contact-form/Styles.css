@@ -308,12 +308,14 @@ header {
 
 /* Your existing CSS styles */
 
-.contact-form-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 30px;
+/* Contact Section */
+
+.contact-section {
+  text-align: center;
   background-color: #f8f8f8;
+  padding: 30px 0;
+  display: flex; /* Add display flex to center the child elements */
+  justify-content: center; /* Center the child elements horizontally */
 }
 
 .contact-form-box {
@@ -323,7 +325,7 @@ header {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-left: 22%; /* Add left margin to indent from the left side */
+  margin: 0 auto; /* Center the form horizontally */
 }
 
 .contact-form-box h2 {
@@ -363,22 +365,9 @@ header {
   cursor: pointer;
 }
 
-.message-box {
-  padding: 20px;
-  width: 20%;
-  margin-right: 20%;
-}
+/* Additional styles for a more professional contact form appearance */
+/* ... */
 
-.additional-text {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 30px rgba(11, 139, 218, 0.5);
-}
-
-.additional-text {
-  font-size: 20px;
-}
 
 /* Additional styles for a more professional contact form appearance */
 
