@@ -331,6 +331,9 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 /* Set the overall section styles */
+/* Your existing CSS styles for .contact-section, .contact-section h2, and .contact-section hr */
+
+/* Set the overall section styles */
 .contact-form-section {
   display: flex;
   justify-content: center;
@@ -365,6 +368,8 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-height: 500px; /* Set a maximum height for the contact form container */
+  overflow-y: auto; /* Add a scroll bar when the content exceeds the maximum height */
 }
 
 .contact-form-box h2 {
@@ -375,6 +380,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 .contact-form {
   display: flex;
   flex-direction: column;
+  justify-content: center; /* Center the form content vertically */
 }
 
 .contact-form label {
@@ -450,4 +456,3 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 .contact-form button:hover {
   background-color: #0056b3;
 }
-
