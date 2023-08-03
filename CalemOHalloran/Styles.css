@@ -384,6 +384,12 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   flex-direction: column;
 }
 
+.contact-form label {
+  display: block;
+  margin-bottom: 5px; /* Add a 5px gap between the label and the input element */
+  font-weight: bold; /* Make the labels bold */
+}
+
 .contact-form input,
 .contact-form textarea {
   padding: 10px;
