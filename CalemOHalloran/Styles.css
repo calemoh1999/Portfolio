@@ -360,7 +360,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
 .contact-form-box {
   flex: 1;
-  max-width: 60%; /* Adjust the width of the form container as needed */
+  max-width: 80%; /* Adjust the width of the form container as needed */
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
