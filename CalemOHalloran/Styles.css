@@ -353,6 +353,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
 .banner {
   max-width: 30%; /* Adjust the width of the banner image as needed */
+  height: 100%; /* Set the height of the banner to match the form's height */
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -365,9 +366,6 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-
-
-
 
 /* Additional styles for the contact form */
 .contact-form {
