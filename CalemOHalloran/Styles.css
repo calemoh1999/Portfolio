@@ -340,7 +340,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   align-items: center; /* Center vertically */
   padding: 30px;
   background-color: #f8f8f8;
-  height: 120px; /* Set the height of the contact form section to match the form height */
+  height: 120px; /* Set the height of the contact form section */
 }
 
 /* Set the container styles to hold the banner and contact form side by side */
@@ -372,6 +372,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 
 
