@@ -347,6 +347,8 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
 /* Add the following CSS to adjust the layout */
 
+/* Add the following CSS to adjust the layout */
+
 .contact-form-section {
   display: flex;
   justify-content: center; /* Center horizontally */
@@ -368,11 +370,13 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   flex: 1;
   max-width: 60%; /* Adjust the width of the form container as needed */
   margin-left: 20px; /* Add some space between the form and the banner */
+  margin-right: 20px; /* Add some space between the form and the right side */
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Additional styles for the contact form */
 .contact-form {
