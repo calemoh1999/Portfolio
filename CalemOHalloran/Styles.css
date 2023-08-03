@@ -315,17 +315,23 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   padding: 30px;
   background-color: #f8f8f8;
 }
+/* Set the container styles to hold the banner and contact form side by side */
+.contact-form-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 800px; /* Adjust the maximum width of the container as needed */
+}
 
-/* Style the banner */
+/* Style the banner on the left side */
 .banner {
   flex: 1;
-  max-width: 30%;
-  padding-right: 30px; /* Add some spacing between the banner and the form */
+  padding-right: 20px; /* Add some spacing between the banner and the form */
 }
 
 .banner img {
-  width: 100%; /* Set the width of the logo to fit the container */
+  width: 100%; /* Set the width of the banner to fit the container */
   height: auto; /* Maintain the aspect ratio */
+  border-radius: 10px; /* Optionally, add a border-radius to the banner */
 }
 
 .contact-form-box {
