@@ -348,18 +348,19 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center; /* Center items vertically */
   max-width: 800px; /* Adjust the maximum width of the container as needed */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
 /* Style the banner on the left side */
 .banner {
-  flex: 1;
+  width: 30%; /* Adjust the width of the banner as needed */
+  height: 100%; /* Set the height of the banner to match the form height */
   padding-right: 20px; /* Add some spacing between the banner and the form */
-  height: 120px; /* Set the height of the banner to match the form height */
 }
 
 .banner img {
-  width: 100%; /* Set the width of the banner to fit the container */
-  height: auto; /* Maintain the aspect ratio */
+  width: 100%; /* Set the width of the banner to fit its container */
+  height: 100%; /* Set the height of the banner to match the form height */
   border-radius: 10px; /* Optionally, add a border-radius to the banner */
 }
 
@@ -371,6 +372,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 
 .contact-form-box h2 {
