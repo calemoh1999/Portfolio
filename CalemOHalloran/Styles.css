@@ -5,15 +5,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ... (Keep your existing CSS for other sections) */
-
-/* Add styles for the hamburger icon */
-.hamburger-icon {
-  font-size: 24px;
-  cursor: pointer;
-}
-
-/* Rearrange the header elements */
 header {
   display: flex;
   justify-content: space-between;
@@ -23,9 +14,7 @@ header {
   width: 100%;
 }
 
-.logo {
-  flex: 1;
-}
+/* Your existing CSS styles for body, header, and footer */
 
 .options {
   display: flex;
@@ -39,9 +28,23 @@ header {
 }
 
 .option a {
-  text-decoration: none;
-  color: #000;
+  text-decoration: none; /* Remove the underline from anchor elements */
+  color: #000; /* Set the color of the anchor text to black */
 }
+
+.logo {
+  width: 120px;
+  position: relative;
+  left: 15%;
+}
+
+.logo img {
+  width: 100%; /* Set the image width to fit its container */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 120px; /* Set a maximum width for the image */
+}
+
+/* Your existing CSS styles for the logo */
 
 .button {
   background-color: #007bff;
@@ -50,28 +53,13 @@ header {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-family: "Helvetica", Arial, sans-serif;
-  font-weight: bold;
+  position: relative;
+  right: 15%;
+  font-family: "Helvetica", Arial, sans-serif; /* Use the same formal and bold font */
+  font-weight: bold; /* Add extra boldness */
 }
 
-.hamburger-menu {
-  display: none; /* Hide the hamburger menu by default for larger screens */
-}
 
-/* Media query to display the hamburger menu and hide the options on smaller screens */
-@media (max-width: 767px) {
-  .options {
-    display: none;
-  }
-  .button {
-    display: none;
-  }
-  .hamburger-menu {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Adjust the gap between the hamburger icon and the logo */
-  }
-}
 
 /* Your existing CSS styles for the button */
 
