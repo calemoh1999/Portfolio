@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Existing CSS styles for body, header, and footer */
+/* ... (Keep your existing CSS for other sections) */
 
 /* Add styles for the hamburger icon */
 .hamburger-icon {
@@ -25,12 +25,12 @@ header {
 
 .logo {
   flex: 1;
-  text-align: right; /* Move the logo to the right */
 }
 
 .options {
   display: flex;
-  justify-content: center; /* Center the options on laptop view */
+  justify-content: center;
+  align-items: center;
   gap: 20px; /* Adjust the gap between options as needed */
 }
 
@@ -63,13 +63,15 @@ header {
   .options {
     display: none;
   }
+  .button {
+    display: none;
+  }
   .hamburger-menu {
     display: flex;
     align-items: center;
     gap: 10px; /* Adjust the gap between the hamburger icon and the logo */
   }
 }
-
 
 /* Your existing CSS styles for the button */
 
