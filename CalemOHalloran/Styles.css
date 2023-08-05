@@ -59,6 +59,54 @@ header {
   font-weight: bold; /* Add extra boldness */
 }
 
+/* Add styles for the hamburger icon */
+.hamburger-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Rearrange the header elements */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  width: 100%;
+}
+
+.logo {
+  flex: 1;
+  text-align: right; /* Move the logo to the right */
+  margin-right: 10px; /* Add some space between the logo and the options */
+}
+
+.options {
+  display: none; /* Hide the options by default for mobile */
+}
+
+.button {
+  flex: 1;
+  text-align: center; /* Move the "Get in Touch" button to the center */
+}
+
+.hamburger-menu {
+  text-align: right; /* Move the hamburger menu to the right */
+  margin-right: 10px; /* Add some space between the hamburger menu and the logo */
+}
+
+/* Media query to display the options and hide the hamburger menu on larger screens */
+@media (min-width: 768px) {
+  .options {
+      display: flex;
+      gap: 20px;
+  }
+  .hamburger-menu {
+      display: none;
+  }
+}
+
+
 /* Your existing CSS styles for the button */
 
 .main-section {
