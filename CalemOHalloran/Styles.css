@@ -5,59 +5,7 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  padding: 10px;
-  width: 100%;
-}
-
-/* Your existing CSS styles for body, header, and footer */
-
-.options {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px; /* Adjust the gap between options as needed */
-}
-
-.option {
-  font-size: 18px;
-}
-
-.option a {
-  text-decoration: none; /* Remove the underline from anchor elements */
-  color: #000; /* Set the color of the anchor text to black */
-}
-
-.logo {
-  width: 120px;
-  position: relative;
-  left: 15%;
-}
-
-.logo img {
-  width: 100%; /* Set the image width to fit its container */
-  height: auto; /* Maintain the aspect ratio */
-  max-width: 120px; /* Set a maximum width for the image */
-}
-
-/* Your existing CSS styles for the logo */
-
-.button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  position: relative;
-  right: 15%;
-  font-family: "Helvetica", Arial, sans-serif; /* Use the same formal and bold font */
-  font-weight: bold; /* Add extra boldness */
-}
+/* Existing CSS styles for body, header, and footer */
 
 /* Add styles for the hamburger icon */
 .hamburger-icon {
@@ -78,11 +26,11 @@ header {
 .logo {
   flex: 1;
   text-align: right; /* Move the logo to the right */
-  margin-right: 10px; /* Add some space between the logo and the options */
 }
 
 .options {
-  display: none; /* Hide the options by default for mobile */
+  display: flex;
+  gap: 20px; /* Adjust the gap between options as needed */
 }
 
 .button {
@@ -91,21 +39,20 @@ header {
 }
 
 .hamburger-menu {
-  text-align: right; /* Move the hamburger menu to the right */
-  margin-right: 10px; /* Add some space between the hamburger menu and the logo */
+  display: none; /* Hide the hamburger menu by default for larger screens */
 }
 
-/* Media query to display the options and hide the hamburger menu on larger screens */
-@media (min-width: 768px) {
+/* Media query to display the hamburger menu and hide the options on smaller screens */
+@media (max-width: 767px) {
   .options {
-      display: flex;
-      gap: 20px;
+    display: none;
   }
   .hamburger-menu {
-      display: none;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between the hamburger icon and the logo */
   }
 }
-
 
 /* Your existing CSS styles for the button */
 
