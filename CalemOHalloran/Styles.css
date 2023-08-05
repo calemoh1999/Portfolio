@@ -30,12 +30,28 @@ header {
 
 .options {
   display: flex;
+  justify-content: center; /* Center the options on laptop view */
   gap: 20px; /* Adjust the gap between options as needed */
 }
 
+.option {
+  font-size: 18px;
+}
+
+.option a {
+  text-decoration: none;
+  color: #000;
+}
+
 .button {
-  flex: 1;
-  text-align: center; /* Move the "Get in Touch" button to the center */
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: bold;
 }
 
 .hamburger-menu {
@@ -53,6 +69,7 @@ header {
     gap: 10px; /* Adjust the gap between the hamburger icon and the logo */
   }
 }
+
 
 /* Your existing CSS styles for the button */
 
