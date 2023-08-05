@@ -430,6 +430,8 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 /* Your existing CSS styles for other sections */
 
+/* Your existing CSS styles for other sections */
+
 .education-section {
   text-align: center;
   background-color: #f8f8f8;
@@ -450,17 +452,15 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   margin: 0 auto 20px;
 }
 
-.education-card-container {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
+.education-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
 .education-card {
-  text-align: center;
-  width: calc(30% - 20px);
-  margin: 10px;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
