@@ -430,11 +430,9 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 /* Your existing CSS styles for other sections */
 
-/* Your existing CSS styles for other sections */
-
 .education-section {
   text-align: center;
-  background-color: #f8f8f8;
+  background-color: #f8f8f8; /* Updated background color */
   padding: 30px 0;
 }
 
@@ -453,9 +451,8 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .education-grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  display: flex; /* Use flexbox to achieve horizontal layout */
+  justify-content: space-between; /* Spacing between the white boxes */
   max-width: 80%;
   margin: 0 auto;
 }
@@ -465,6 +462,8 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Allow the boxes to take an equal portion of the available space */
+  margin: 0 10px; /* Spacing between the white boxes */
 }
 
 .education-card h3 {
@@ -476,3 +475,4 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   font-size: 16px;
   margin-bottom: 10px;
 }
+
