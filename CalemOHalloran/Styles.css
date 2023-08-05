@@ -476,3 +476,16 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
 }
 
+/* Additional styles for horizontal layout and spacing */
+
+@media (max-width: 768px) {
+  /* Adjust the layout for smaller screens */
+  .education-container {
+      flex-direction: column;
+  }
+
+  .education-box {
+      margin: 10px 0;
+  }
+}
+
