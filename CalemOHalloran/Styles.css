@@ -447,10 +447,12 @@ header {
 
 /* Read More Feature for the home page */
 
+/* ... other CSS styles ... */
+
+/* Add the following style to enable smooth transition on height changes */
 .content {
-  max-height: 200px; /* Adjust the maximum height to show the initial content */
   overflow: hidden;
-  transition: max-height 0.3s ease; /* Add a smooth transition effect */
+  transition: max-height 0.3s ease;
 }
 
 .hidden-content {
@@ -472,3 +474,4 @@ header {
   color: #007bff;
   text-decoration: none;
 }
+
