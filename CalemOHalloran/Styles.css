@@ -447,29 +447,35 @@ header {
 
 /* Read More Feature for the home page */
 
-.content {
-  max-height: 200px; /* Adjust the maximum height to show the initial content */
+.skills-section .skill-text {
+  max-height: 5.4em; /* Adjust the height to show the first 5 lines */
   overflow: hidden;
-  transition: max-height 0.3s ease; /* Add a smooth transition effect */
+  position: relative;
 }
 
-.hidden-content {
-  display: none;
+.skills-section .skill-text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2em; /* Height of the Read More link */
+  background: linear-gradient(rgba(255, 255, 255, 0), white); /* Fading effect */
 }
 
-/* Hide the 'Read More' link when expanded */
-.expanded .read-more-link {
-  display: none;
-}
-
-/* Center the 'Read More' link and style it */
-.read-more {
+.skills-section .read-more {
   text-align: center;
-  margin-top: 10px;
 }
 
-.read-more-link {
+.skills-section .read-more-link {
   color: #007bff;
   text-decoration: none;
 }
+
+.skills-section .read-less-link {
+  color: #007bff;
+  text-decoration: none;
+  display: none;
+}
+
 
