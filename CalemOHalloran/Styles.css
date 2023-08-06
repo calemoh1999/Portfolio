@@ -448,7 +448,7 @@ header {
 /* Read More Feature for the home page */
 
 .skills-section .skill-text {
-  max-height: 5.4em; /* Adjust the height to show the first 5 lines */
+  max-height: 25.4em; /* Adjust the height to show the first 5 lines */
   overflow: hidden;
   position: relative;
 }
