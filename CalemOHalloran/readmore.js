@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         content.style.maxHeight = "none";
       } else {
         readMoreLink.textContent = "Read More";
-        content.style.maxHeight = "50px"; // Adjust the height back to the original value
+        content.style.maxHeight = "200px"; // Adjust the height back to the original value
       }
     });
   });
