@@ -444,3 +444,24 @@ header {
       margin: 10px 0;
   }
 }
+
+/* Read More Feature for the home page */
+
+.content {
+  max-height: 200px; /* Adjust the maximum height to show the initial content */
+  overflow: hidden;
+}
+
+.read-more {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.read-more-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.expanded {
+  max-height: none;
+}
