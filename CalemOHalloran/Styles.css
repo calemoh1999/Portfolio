@@ -452,7 +452,12 @@ header {
   overflow: hidden;
 }
 
-.hidden-content {
+.expanded .hidden-content {
+  display: block;
+}
+
+/* Hide the 'Read More' link when expanded */
+.expanded .read-more-link {
   display: none;
 }
 
