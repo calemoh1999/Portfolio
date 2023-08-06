@@ -450,10 +450,11 @@ header {
 .content {
   max-height: 200px; /* Adjust the maximum height to show the initial content */
   overflow: hidden;
+  transition: max-height 0.3s ease; /* Add a smooth transition effect */
 }
 
-.expanded .hidden-content {
-  display: block;
+.hidden-content {
+  display: none;
 }
 
 /* Hide the 'Read More' link when expanded */
