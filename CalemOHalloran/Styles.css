@@ -5,6 +5,8 @@ body {
   overflow-x: hidden;
 }
 
+/* Header styles */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -14,7 +16,7 @@ header {
   width: 100%;
 }
 
-/* Your existing CSS styles for body, header, and footer */
+/* Option styles */
 
 .options {
   display: flex;
@@ -28,9 +30,11 @@ header {
 }
 
 .option a {
-  text-decoration: none; /* Remove the underline from anchor elements */
-  color: #000; /* Set the color of the anchor text to black */
+  text-decoration: none;
+  color: #000;
 }
+
+/* Logo styles */
 
 .logo {
   width: 120px;
@@ -39,12 +43,12 @@ header {
 }
 
 .logo img {
-  width: 100%; /* Set the image width to fit its container */
-  height: auto; /* Maintain the aspect ratio */
-  max-width: 120px; /* Set a maximum width for the image */
+  width: 100%;
+  height: auto;
+  max-width: 120px;
 }
 
-/* Your existing CSS styles for the logo */
+/* Button styles */
 
 .button {
   background-color: #007bff;
@@ -55,27 +59,25 @@ header {
   cursor: pointer;
   position: relative;
   right: 15%;
-  font-family: "Helvetica", Arial, sans-serif; /* Use the same formal and bold font */
-  font-weight: bold; /* Add extra boldness */
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: bold;
 }
 
-
-
-/* Your existing CSS styles for the button */
+/* Main section styles */
 
 .main-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  position: relative; /* Add position relative to allow using left property */
-  left: 15%; /* Move the main content inward by 15% from the left side */
+  position: relative;
+  left: 15%;
   max-width: 80%;
 }
 
 .left-content {
   flex: 1;
-  padding-right: 30px; /* Add padding to move the text inward on the right */
+  padding-right: 30px;
 }
 
 .left-content h1 {
@@ -102,48 +104,47 @@ header {
 }
 
 .right-content {
-  flex: 1; /* Allow the image to take the remaining space on the right */
+  flex: 1;
 }
 
 .right-image-container {
   display: flex;
-  justify-content: flex-end; /* Push the image to the right */
+  justify-content: flex-end;
 }
 
 .right-content img {
-  max-width: 300px; /* Set the desired maximum width for the image */
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
 }
 
-
-/* Your existing CSS styles for the right-content img */
-
-/* Your existing CSS styles for .stay-in-touch */
+/* Stay in touch section styles */
 
 .stay-in-touch {
-text-align: center;
-background-color: #fff;
-padding: 20px 0;
-width: 100%;
-z-index: 999;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .stay-in-touch h2 {
-font-family: "Dancing Script", cursive; /* Use the "Dancing Script" handwriting font */
-font-size: 36px;
-font-weight: normal; /* Use normal font weight for handwriting style */
-margin-bottom: 10px;
-color: #333; /* Set the color of the heading */
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: #333;
 }
 
 .stay-in-touch .signature-line {
-height: 2px;
-width: 150px;
-background-color: #007bff; /* Set the color of the signature line */
-margin: 10px auto; /* Center the line horizontally */
+  height: 2px;
+  width: 150px;
+  background-color: #007bff;
+  margin: 10px auto;
 }
+
+/* Footer styles */
 
 .footer-content {
   background-color: #df1212;
@@ -164,7 +165,7 @@ margin: 10px auto; /* Center the line horizontally */
 .left {
   flex: 1;
   text-align: left;
-  margin-left: 10%; /* Move the left entity inward by 10% */
+  margin-left: 10%;
 }
 
 .middle {
@@ -184,7 +185,7 @@ margin: 10px auto; /* Center the line horizontally */
 .right {
   flex: 1;
   text-align: right;
-  margin-right: 10%; /* Move the right entity inward by 10% */
+  margin-right: 10%;
 }
 
 .left img {
@@ -197,120 +198,52 @@ margin: 10px auto; /* Center the line horizontally */
   font-size: 16px;
 }
 
+/* Skills section styles */
+
 .skills-section {
-text-align: center;
-background-color: #f8f8f8;
-padding: 30px 0;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 30px 0;
 }
 
 .skills-section h2 {
-font-size: 24px;
-margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .skills-section hr {
-border: none;
-height: 1px;
-background-color: #333;
-width: 50%;
-margin: 0 auto 20px;
+  border: none;
+  height: 1px;
+  background-color: #333;
+  width: 50%;
+  margin: 0 auto 20px;
 }
 
 .skill-card-container {
-display: flex;
-justify-content: space-between;
-width: 80%; /* Adjust the width to leave 10% inset from both left and right */
-margin: 0 auto; /* Center the skill card container */
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .skill-card {
-text-align: center;
-width: calc(30% - 20px); /* Set a fixed width for each skill card container with spacing */
-margin: 10px; /* Add margin to space out the skill cards */
+  text-align: center;
+  width: calc(30% - 20px);
+  margin: 10px;
 }
 
 .skill-card img {
-max-width: 80%; /* Make the images slightly bigger by reducing the max-width value */
-height: auto;
-object-fit: cover; /* Maintain the aspect ratio of the images */
+  max-width: 80%;
+  height: auto;
+  object-fit: cover;
 }
 
 .skill-text {
-margin-top: 10px;
-max-width: 100%; /* Set the text box width to match the width of the image */
+  margin-top: 10px;
+  max-width: 100%;
 }
 
-/* Contact styles*/
-
-/* Handwriting font import from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-/* Contact Section */
-
-.contact-section {
-text-align: center;
-background-color: #f8f8f8;
-padding: 30px 0;
-}
-
-.contact-section h2 {
-font-size: 24px;
-margin-bottom: 10px;
-text-align: center; /* Add this line to center the "Contact" message */
-}
-
-.contact-section hr {
-border: none;
-height: 1px;
-background-color: #333;
-width: 50%;
-margin: 0 auto 20px;
-}
-
-.contact-box-container {
-display: flex;
-justify-content: space-between;
-align-items: center;
-max-width: 800px;
-margin: 0 auto;
-}
-
-.contact-box {
-background-color: #fff;
-padding: 20px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-border-radius: 5px;
-transition: box-shadow 0.3s ease;
-flex: 1;
-height: 120px;
-margin: 0 10px; /* Add margin between the boxes */
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-
-.contact-box img {
-width: 50px;
-height: 50px;
-display: block;
-margin: 0 auto;
-}
-
-.contact-box p {
-font-size: 16px;
-margin-top: 10px;
-}
-
-.contact-box:hover {
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-}
-
-/* contact form CSS*/
-
-/* Your existing CSS styles */
-
-/* Contact Section */
+/* Contact section styles */
 
 .contact-section {
   text-align: center;
@@ -332,10 +265,34 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   margin: 0 auto 20px;
 }
 
-/* Set the overall section styles */
-/* Your existing CSS styles for .contact-section, .contact-section h2, and .contact-section hr */
+.contact-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-/* Center the contact form */
+.contact-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 0 10px;
+}
+
+.contact-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-box p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Contact form styles */
 
 .contact-form-section {
   display: flex;
@@ -348,17 +305,17 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 .contact-banner {
   flex: 1;
   max-width: 10%;
-  height: 525px; /* Adjust this value to match the form's height */
-  margin-right: 10px; /* Add a 10px gap between the banner and the form */
-  border-radius: 10px; /* Add rounded edges to the banner */
-  overflow: hidden; /* Ensure content within the banner does not overflow */
+  height: 525px;
+  margin-right: 10px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .banner-image {
   width: 100%;
-  height: 100%; /* Set the banner height to match the form's height */
+  height: 100%;
   max-width: 100%;
-  object-fit: cover; /* Maintain the aspect ratio of the image */
+  object-fit: cover;
 }
 
 .contact-form-box {
@@ -366,11 +323,10 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   max-width: 60%;
   background-color: #fff;
   padding: 20px;
-  border-radius: 10px; /* Add rounded edges to the form */
+  border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Additional styles for the contact form */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -378,8 +334,8 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 
 .contact-form label {
   display: block;
-  margin-bottom: 5px; /* Add a 5px gap between the label and the input element */
-  font-weight: bold; /* Make the labels bold */
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .contact-form input,
@@ -409,13 +365,10 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
 
-/* Add a subtle box shadow to the contact form box */
 .contact-form-box {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the form button */
-/* Add margin to the "Send Message" button to create separation */
 .contact-form button {
   background-color: #007bff;
   color: #fff;
@@ -423,25 +376,25 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
   padding: 15px 30px;
   cursor: pointer;
   border: none;
-  border-radius: 10px; /* Add border-radius for a bubble-like appearance */
-  margin-top: 20px; /* Add margin to create separation from the previous element */
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 .contact-form button:hover {
   background-color: #0056b3;
 }
-/* Your existing CSS styles for other sections */
+
+/* Education section styles */
 
 .education-section {
   text-align: center;
-  background-color: #f8f8f8; /* Same background color as skills-section */
+  background-color: #f8f8f8;
   padding: 30px 0;
 }
 
 .education-section h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  text-align: center;
 }
 
 .education-section hr {
@@ -490,4 +443,3 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
       margin: 10px 0;
   }
 }
-
