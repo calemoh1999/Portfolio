@@ -448,10 +448,15 @@ header {
 /* Read More Feature for the home page */
 
 .content {
-  max-height: 50px; /* Adjust the maximum height to show the initial content */
+  max-height: 200px;
   overflow: hidden;
 }
 
+.hidden-content {
+  display: none;
+}
+
+/* Center the 'Read More' link and style it */
 .read-more {
   text-align: center;
   margin-top: 10px;
@@ -460,8 +465,4 @@ header {
 .read-more-link {
   color: #007bff;
   text-decoration: none;
-}
-
-.expanded {
-  max-height: none;
 }
