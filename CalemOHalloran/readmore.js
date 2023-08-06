@@ -1,21 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
     const readMoreLinks = document.querySelectorAll(".read-more-link");
-    const readLessLinks = document.querySelectorAll(".read-less-link");
-    const skillTexts = document.querySelectorAll(".skill-text");
-
-    readMoreLinks.forEach((readMoreLink, index) => {
-        readMoreLink.addEventListener("click", function (event) {
-            event.preventDefault();
-            skillTexts[index].classList.add("expanded");
-            readMoreLink.style.display = "none";
-            readLessLinks[index].style.display = "inline";
-        });
-
-        readLessLinks[index].addEventListener("click", function (event) {
-            event.preventDefault();
-            skillTexts[index].classList.remove("expanded");
-            readMoreLink.style.display = "inline";
-            readLessLinks[index].style.display = "none";
-        });
+  
+    // Function to toggle the visibility of the hidden content
+    function toggleHiddenContent(event) {
+      event.preventDefault();
+      const skillText = event.target.parentNode;
+      const content = skillText.querySelector(".content");
+      const hiddenContent = skillText.querySelector(".hidden-content");
+      hiddenContent.classList.toggle("expanded");
+      if (hiddenContent.classList.contains("expanded")) {
+        event.target.textContent = "Read Less";
+        content.style.display = "none";
+        hiddenContent.style.display = "block";
+      } else {
+        event.target.textContent = "Read More";
+        content.style.display = "block";
+        hiddenContent.style.display = "none";
+      }
+    }
+  
+    // Attach click event to all "Read More" links
+    readMoreLinks.forEach(function (link) {
+      link.addEventListener("click", toggleHiddenContent);
     });
-});
+  });
+  
