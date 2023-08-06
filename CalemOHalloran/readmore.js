@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       hiddenContent.classList.toggle("expanded");
       if (hiddenContent.classList.contains("expanded")) {
         readMoreLink.textContent = "Read Less";
-        content.style.maxHeight = "none";
+        content.style.maxHeight = hiddenContent.clientHeight + "px";
       } else {
         readMoreLink.textContent = "Read More";
         content.style.maxHeight = "200px"; // Adjust the height back to the original value

@@ -447,11 +447,13 @@ header {
 
 /* Read More Feature for the home page */
 
+/* Set initial height for the content */
 .content {
   max-height: 200px;
   overflow: hidden;
 }
 
+/* Hide the hidden content */
 .hidden-content {
   display: none;
 }
