@@ -15,5 +15,12 @@ document.addEventListener("DOMContentLoaded", function () {
         content.style.maxHeight = "200px"; // Adjust the height back to the original value
       }
     });
+  
+    // Set initial state based on whether content is taller than the max-height
+    if (content.clientHeight > 200) {
+      readMoreLink.style.display = "inline"; // Show "Read More" link if content exceeds max-height
+    } else {
+      readMoreLink.style.display = "none"; // Hide "Read More" link if content does not exceed max-height
+    }
   });
   
