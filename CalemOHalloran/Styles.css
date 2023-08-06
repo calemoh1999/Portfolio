@@ -233,7 +233,7 @@ header {
 }
 
 .skill-card img {
-  max-width: 80%;
+  max-width: 100%; /* Increase the size of the images */
   height: auto;
   object-fit: cover;
 }
@@ -241,6 +241,7 @@ header {
 .skill-text {
   margin-top: 10px;
   max-width: 100%;
+  text-align: left; /* Align paragraphs to the left */
 }
 
 /* Contact section styles */
