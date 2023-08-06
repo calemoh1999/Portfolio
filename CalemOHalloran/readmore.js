@@ -1,27 +1,32 @@
 document.addEventListener("DOMContentLoaded", function () {
     const readMoreLink = document.querySelector(".read-more-link");
-    const content = document.querySelector(".content");
     const hiddenContent = document.querySelector(".hidden-content");
+    const initialHeight = 200; // Adjust the initial height as needed
   
-    readMoreLink.addEventListener("click", function (event) {
-      event.preventDefault();
-      content.classList.toggle("expanded");
-  
-      if (content.classList.contains("expanded")) {
+    // Function to toggle the visibility of the hidden content
+    function toggleHiddenContent() {
+      hiddenContent.classList.toggle("expanded");
+      if (hiddenContent.classList.contains("expanded")) {
         readMoreLink.textContent = "Read Less";
-        content.style.maxHeight = hiddenContent.clientHeight + "px";
+        hiddenContent.style.maxHeight = hiddenContent.scrollHeight + "px";
       } else {
         readMoreLink.textContent = "Read More";
-        content.style.maxHeight = "200px"; // Adjust the height back to the original value
+        hiddenContent.style.maxHeight = initialHeight + "px";
       }
-    });
-  
-    // Set initial state based on whether content is taller than the max-height
-    if (content.clientHeight > 200) {
-      readMoreLink.style.display = "inline"; // Show "Read More" link if content exceeds max-height
-      content.style.maxHeight = "200px"; // Hide additional content initially
-    } else {
-      readMoreLink.style.display = "none"; // Hide "Read More" link if content does not exceed max-height
     }
+  
+    // Show/hide content based on the initial height
+    hiddenContent.style.maxHeight = initialHeight + "px";
+  
+    // Show "Read More" link if content exceeds initial height
+    if (hiddenContent.scrollHeight > initialHeight) {
+      readMoreLink.style.display = "inline";
+    }
+  
+    // Toggle content visibility when "Read More" link is clicked
+    readMoreLink.addEventListener("click", function (event) {
+      event.preventDefault();
+      toggleHiddenContent();
+    });
   });
   
