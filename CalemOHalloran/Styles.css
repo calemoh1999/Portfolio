@@ -204,6 +204,7 @@ header {
   text-align: center;
   background-color: #f8f8f8;
   padding: 30px 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .skills-section h2 {
@@ -452,7 +453,7 @@ header {
 
 /* Style the 'Read More' text */
 #myBtn1, #myBtn2, #myBtn3 {
-  color: #0068d7;
+  color: #007bff;
   cursor: pointer;
 }
 
@@ -461,6 +462,3 @@ header {
   color: #0056b3;
 }
 
-.section-with-shadow {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-}
