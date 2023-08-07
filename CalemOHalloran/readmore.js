@@ -1,4 +1,5 @@
-function myFunction(dotsId, moreTextId, btnId) {
+window.onload = function () {
+    function myFunction(dotsId, moreTextId, btnId) {
     var dots = document.getElementById(dotsId);
     var moreText = document.getElementById(moreTextId);
     var btnText = document.getElementById(btnId);
@@ -13,4 +14,4 @@ function myFunction(dotsId, moreTextId, btnId) {
       moreText.style.display = "inline";
     }
   }
-  
+};
