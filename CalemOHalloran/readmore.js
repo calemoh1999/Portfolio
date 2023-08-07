@@ -1,16 +1,15 @@
-function toggleHiddenContent() {
-    var content = document.querySelector('.content');
-    var hiddenContent = document.querySelector('.hidden-content');
-    var btnText = document.getElementById("readMoreBtn");
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
   
-    if (content.style.maxHeight === "2.5em") {
-      content.style.maxHeight = "none";
-      hiddenContent.style.display = "none";
-      btnText.innerHTML = "Read Less";
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
     } else {
-      content.style.maxHeight = "2.5em";
-      hiddenContent.style.display = "block";
-      btnText.innerHTML = "Read More";
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
     }
   }
-  
