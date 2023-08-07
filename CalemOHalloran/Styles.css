@@ -448,3 +448,19 @@ header {
 /* Read More Feature for the home page */
 
 #more {display: none;}
+
+/* Style the 'Read More' button */
+#myBtn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* On hover, change the background color */
+#myBtn:hover {
+  background-color: #0056b3;
+}
