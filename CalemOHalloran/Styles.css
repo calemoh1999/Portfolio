@@ -450,7 +450,7 @@ header {
 #more1, #more2, #more3 {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.8s ease; /* Add a smooth transition effect */
+  transition: max-height 0.3s ease;
 }
 
 

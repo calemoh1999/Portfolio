@@ -10,15 +10,16 @@ function myFunction(dotsId, moreTextId, btnId) {
   } else {
     // Collapse the content
     btnText.innerHTML = "Read more"; 
-    moreText.style.maxHeight = "0px";
+    moreText.style.maxHeight = "0";
   }
 }
 
-  
-  document.addEventListener("DOMContentLoaded", function () {
-    // Call the function for each read more button
-    myFunction('dots1', 'more1', 'myBtn1');
-    myFunction('dots2', 'more2', 'myBtn2');
-    myFunction('dots3', 'more3', 'myBtn3');
-  });
+// Add an event listener to execute the function after the DOM has loaded
+document.addEventListener("DOMContentLoaded", function () {
+  // Call the function for each read more button
+  myFunction('dots1', 'more1', 'myBtn1');
+  myFunction('dots2', 'more2', 'myBtn2');
+  myFunction('dots3', 'more3', 'myBtn3');
+});
+
   
