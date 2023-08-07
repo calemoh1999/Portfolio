@@ -447,14 +447,6 @@ header {
 
 /* Read More Feature for the home page */
 
-.content {
-  max-height: 2.5em; /* Adjust the maximum height to show the desired number of lines */
-  overflow: hidden;
-  transition: max-height 0.3s ease; /* Add a smooth transition effect */
-}
 
-.hidden-content {
-  display: none;
-}
 
 
