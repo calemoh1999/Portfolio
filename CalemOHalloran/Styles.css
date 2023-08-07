@@ -73,6 +73,7 @@ header {
   position: relative;
   left: 15%;
   max-width: 80%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .left-content {
