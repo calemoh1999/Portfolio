@@ -1,27 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const readMoreLinks = document.querySelectorAll(".read-more-link");
+function toggleHiddenContent() {
+    var content = document.querySelector('.content');
+    var hiddenContent = document.querySelector('.hidden-content');
+    var btnText = document.getElementById("readMoreBtn");
   
-    // Function to toggle the visibility of the hidden content
-    function toggleHiddenContent(event) {
-      event.preventDefault();
-      const skillText = event.target.parentNode;
-      const content = skillText.querySelector(".content");
-      const hiddenContent = skillText.querySelector(".hidden-content");
-      hiddenContent.classList.toggle("expanded");
-      if (hiddenContent.classList.contains("expanded")) {
-        event.target.textContent = "Read Less";
-        content.style.display = "none";
-        hiddenContent.style.display = "block";
-      } else {
-        event.target.textContent = "Read More";
-        content.style.display = "block";
-        hiddenContent.style.display = "none";
-      }
+    if (content.style.maxHeight === "2.5em") {
+      content.style.maxHeight = "none";
+      hiddenContent.style.display = "none";
+      btnText.innerHTML = "Read Less";
+    } else {
+      content.style.maxHeight = "2.5em";
+      hiddenContent.style.display = "block";
+      btnText.innerHTML = "Read More";
     }
-  
-    // Attach click event to all "Read More" links
-    readMoreLinks.forEach(function (link) {
-      link.addEventListener("click", toggleHiddenContent);
-    });
-  });
+  }
   
