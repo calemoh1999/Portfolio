@@ -448,9 +448,11 @@ header {
 /* Read More Feature for the home page */
 
 #more1, #more2, #more3 {
-  display: none;
-  transition: max-height 0.3s ease; /* Add a smooth transition effect */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease; /* Add a smooth transition effect */
 }
+
 
 /* Style the 'Read More' button */
 #myBtn1, #myBtn2, #myBtn3 {
