@@ -242,6 +242,7 @@ header {
   margin-top: 10px;
   max-width: 100%;
   text-align: left; /* Align paragraphs to the left */
+  line-height: 1.5; /* Adjust the value as needed to control the spacing */
 }
 
 /* Contact section styles */
