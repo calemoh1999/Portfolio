@@ -449,8 +449,11 @@ header {
 
 #more1, #more2, #more3 {
   display: none;
+  max-height: 0;
+  overflow: hidden;
   transition: max-height 0.3s ease; /* Add a smooth transition effect */
 }
+
 
 /* Style the 'Read More' button */
 #myBtn1, #myBtn2, #myBtn3 {
