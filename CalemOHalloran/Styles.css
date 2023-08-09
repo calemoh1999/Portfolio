@@ -480,11 +480,11 @@ header {
   }
 
   .left-content {
-    padding-right: 0; /* Remove right padding */
+    padding-right: 0;
   }
 
   .right-content {
-    display: none; /* Hide the image container */
+    display: none;
   }
 
   .left-content h1 {
@@ -495,10 +495,11 @@ header {
   .left-content p {
     font-size: 16px;
     margin-bottom: 20px;
+    text-align: center; /* Center-align the paragraph text */
   }
 
   .learn-more-button {
-    padding: 10px 20px;
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px; /* Center-align the button */
   }
 }
