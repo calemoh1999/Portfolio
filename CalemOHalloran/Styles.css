@@ -499,24 +499,30 @@ header {
   .logo {
       flex: 1;
       text-align: left;
-      padding-left: 10px; /* Add a little padding to the left */
+      padding-left: 10px;
+  }
+
+  .button {
+      flex: 1;
+      text-align: center;
   }
 
   /* Mobile Dropdown Trigger Styles */
   .mobile-menu-button {
       cursor: pointer;
-      font-size: 24px;
+      font-size: 28px; /* Increase font size */
       margin-right: 10px;
       border: none;
       background: none;
+      flex: 1; /* Take up some space */
   }
 
   /* Mobile Dropdown Styles */
   .mobile-dropdown {
       display: none;
       position: absolute;
-      top: 50px; /* Adjust the position as needed */
-      right: 10px; /* Adjust the position as needed */
+      top: 50px;
+      right: 10px;
       background-color: #fff;
       border-radius: 5px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
