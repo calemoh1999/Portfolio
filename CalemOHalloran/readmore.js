@@ -6,11 +6,11 @@ function myFunction(dotsId, moreTextId, btnId) {
   if (dots.style.display === "none" || dots.style.display === "") {
     dots.style.display = "inline";
     btnText.textContent = "Read more"; 
-    moreText.style.display = "none";
+    moreText.style.maxHeight = "0";
   } else {
     dots.style.display = "none";
     btnText.textContent = "Read less"; 
-    moreText.style.display = "inline";
+    moreText.style.maxHeight = "1000px"; // Set an appropriate max height value
   }
 }
 

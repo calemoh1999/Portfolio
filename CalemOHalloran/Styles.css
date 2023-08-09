@@ -448,7 +448,13 @@ header {
 
 /* Read More Feature for the home page */
 
-#more {display: none;}
+/* Style the hidden content */
+#more1, #more2, #more3 {
+  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease; /* Add transition property for smooth animation */
+}
 
 /* Style the 'Read More' text */
 #myBtn1, #myBtn2, #myBtn3 {
