@@ -462,3 +462,9 @@ header {
   color: #0056b3;
 }
 
+.content-more {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.3s ease; /* Add transition property for height change */
+}
+

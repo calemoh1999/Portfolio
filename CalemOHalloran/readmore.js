@@ -1,22 +1,19 @@
-function myFunction(dotsId, moreTextId, btnId) {
-  var dots = document.getElementById(dotsId);
-  var moreText = document.getElementById(moreTextId);
-  var btnText = document.getElementById(btnId);
+function toggleContent(contentId) {
+  var content = document.getElementById(contentId);
+  var button = document.getElementById('myBtn' + contentId.substring(4));
 
-  if (dots.style.display === "none" || dots.style.display === "") {
-    dots.style.display = "inline";
-    btnText.textContent = "Read more"; 
-    moreText.style.display = "none";
+  if (content.style.height === '' || content.style.height === '0px') {
+    content.style.height = 'auto';
+    button.textContent = 'Read less';
   } else {
-    dots.style.display = "none";
-    btnText.textContent = "Read less"; 
-    moreText.style.display = "inline";
+    content.style.height = '0';
+    button.textContent = 'Read more';
   }
 }
 
+// Call the function for each read more button
 document.addEventListener("DOMContentLoaded", function () {
-  // Call the function for each read more button
-  myFunction('dots1', 'more1', 'myBtn1');
-  myFunction('dots2', 'more2', 'myBtn2');
-  myFunction('dots3', 'more3', 'myBtn3');
+  toggleContent('more1');
+  toggleContent('more2');
+  toggleContent('more3');
 });
