@@ -467,26 +467,39 @@ header {
   color: #0056b3;
 }
 
-/* Mobile styles for the Skills section */
+/* Mobile styles for .main-section */
 @media (max-width: 768px) {
-  .skills-section {
-    padding: 20px 0;
-  }
-
-  .skills-section h2 {
-    font-size: 24px;
-  }
-
-  .skills-section hr {
-    width: 30%;
-  }
-
-  .skill-card-container {
+  .main-section {
+    display: flex;
     flex-direction: column;
+    padding: 20px;
+    text-align: center;
   }
 
-  .skill-card {
-    width: 100%;
-    margin: 10px 0;
+  .left-content h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .left-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .learn-more-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 }
