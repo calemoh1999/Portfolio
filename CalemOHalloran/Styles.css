@@ -474,6 +474,7 @@ header {
 /* Other existing styles... */
 
 /* Mobile styles for .main-section */
+/* Mobile styles for .main-section */
 @media (max-width: 768px) {
   .main-section {
     display: flex;
@@ -483,14 +484,14 @@ header {
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
+    overflow: hidden; /* Prevent horizontal overflow */
   }
 
   .left-content {
-    max-width: 85%; /* Adjust the max-width as needed */
+    max-width: 100%; /* Adjust the max-width as needed */
     text-align: center;
     padding: 0 15px; /* Indent from left and right */
     margin-bottom: 20px;
-    width: 100%;
   }
 
   .right-content {
@@ -521,6 +522,7 @@ header {
     border-radius: 10px;
   }
 }
+
 
 /* Mobile styles for .skills-section */
 @media (max-width: 768px) {
