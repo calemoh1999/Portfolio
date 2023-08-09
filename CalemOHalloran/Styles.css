@@ -486,71 +486,73 @@ header {
 
   /* Add more adjustments as needed */
 }
-/* For mobile devices */
+/* ... (existing styles) ... */
+
+/* Mobile styles */
 @media (max-width: 768px) {
   header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
   }
 
   .logo {
-      flex: 1;
-      text-align: left;
+    flex: 1;
+    text-align: left;
   }
 
   .get-in-touch {
-      display: none;
+    display: none;
   }
 
   .mobile-menu-button {
-      cursor: pointer;
-      font-size: 28px;
-      border: none;
-      background: none;
+    cursor: pointer;
+    font-size: 28px;
+    border: none;
+    background: none;
   }
 
   .mobile-dropdown {
-      display: none;
-      position: absolute;
-      top: 50px;
-      right: 10px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      z-index: 1;
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
   }
 
   .mobile-dropdown ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   .mobile-dropdown li {
-      padding: 10px;
+    padding: 10px;
   }
 
   .mobile-dropdown a {
-      text-decoration: none;
-      color: #000;
-      font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
   }
 
   .mobile-menu {
-      text-align: right;
+    text-align: right;
   }
 }
 
 /* For larger screens */
 @media (min-width: 769px) {
   .mobile-menu {
-      display: none;
+    display: none;
   }
 
   .get-in-touch {
-      display: block;
+    display: block;
   }
 }
