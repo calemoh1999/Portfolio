@@ -550,8 +550,8 @@ header {
   }
 
   .skill-card {
-    width: 80%; /* Adjust width as needed */
-    margin: 0 auto 20px;
+    width: 100%; /* Adjust width as needed */
+    margin: 0;
     text-align: center;
   }
 
