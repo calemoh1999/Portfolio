@@ -471,19 +471,20 @@ header {
 
 /* Other existing styles... */
 
-/* Mobile styles for the entire page */
+/* Mobile styles for .main-section */
 @media (max-width: 768px) {
-  body {
-    border: 2px solid #333;
-    box-sizing: border-box;
-    padding: 10px;
-  }
-
-  /* Override main section styles */
   .main-section {
     display: block;
     text-align: center;
     padding: 20px;
+  }
+
+  .left-content {
+    padding-right: 0; /* Remove right padding */
+  }
+
+  .right-content {
+    display: none; /* Hide the image container */
   }
 
   .left-content h1 {
@@ -499,11 +500,5 @@ header {
   .learn-more-button {
     padding: 10px 20px;
     margin-bottom: 20px;
-  }
-
-  .right-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
   }
 }
