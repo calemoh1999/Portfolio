@@ -476,6 +476,11 @@ header {
     text-align: center;
   }
 
+  .left-content {
+    flex: 1;
+    text-align: center;
+  }
+
   .left-content h1 {
     font-size: 30px;
     margin-bottom: 10px;
@@ -487,8 +492,8 @@ header {
   }
 
   .learn-more-button {
-    display: inline-block;
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto 20px;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -503,3 +508,4 @@ header {
     border-radius: 10px;
   }
 }
+
