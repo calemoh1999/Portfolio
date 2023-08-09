@@ -470,14 +470,11 @@ header {
 /* Mobile styles for .main-section */
 @media (max-width: 768px) {
   .main-section {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 20px;
-    text-align: center;
-  }
-
-  .left-content {
-    text-align: center;
-    margin-bottom: 20px;
   }
 
   .left-content h1 {
@@ -491,18 +488,13 @@ header {
   }
 
   .learn-more-button {
-    display: block;
-    margin: 0 auto 20px;
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-  }
-
-  .right-content {
-    margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   .right-content img {
@@ -511,4 +503,3 @@ header {
     border-radius: 10px;
   }
 }
-
