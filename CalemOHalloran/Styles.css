@@ -454,6 +454,7 @@ header {
 #myBtn1, #myBtn2, #myBtn3 {
   color: #007bff;
   cursor: pointer;
+  transition: all 0.3s ease; /* Add transition property */
 }
 
 /* On hover, change the text color */
