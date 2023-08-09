@@ -68,17 +68,19 @@ header {
 
 .main-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
-  position: relative;
-  left: 15%;
-  max-width: 80%;
+  flex-direction: column;
+  padding: 20px; /* Adjust as needed */
+  max-width: 100%; /* Use max-width to prevent content from becoming too wide */
+  box-sizing: border-box;
 }
 
 .left-content {
-  flex: 1;
-  padding-right: 30px;
+  max-width: 100%;
+  text-align: center;
+  padding: 0 15px; /* Indent from left and right */
+  margin-bottom: 20px;
 }
 
 .left-content h1 {
@@ -105,8 +107,10 @@ header {
 }
 
 .right-content {
-  flex: 1;
+  text-align: center;
+  margin-top: 20px; /* Add margin to separate from left content */
 }
+
 
 .right-image-container {
   display: flex;
@@ -114,7 +118,7 @@ header {
 }
 
 .right-content img {
-  max-width: 300px;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
 }
@@ -473,7 +477,6 @@ header {
 
 /* Other existing styles... */
 
-/* Mobile styles for .main-section */
 /* Mobile styles for .main-section */
 @media (max-width: 768px) {
   .main-section {
