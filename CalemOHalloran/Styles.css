@@ -467,39 +467,36 @@ header {
   color: #0056b3;
 }
 
+/* styles.css */
+
+/* Other existing styles... */
+
 /* Mobile styles for .main-section */
 @media (max-width: 768px) {
   .main-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
+    display: block !important; /* Change display to block */
+    text-align: center !important; /* Center the content */
+    padding: 20px !important; /* Adjust padding */
   }
 
   .left-content h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 30px !important; /* Adjust font size */
+    margin-bottom: 10px !important; /* Adjust margin */
   }
 
   .left-content p {
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 16px !important; /* Adjust font size */
+    margin-bottom: 20px !important; /* Adjust margin */
   }
 
   .learn-more-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-bottom: 20px;
+    padding: 10px 20px !important; /* Adjust padding */
+    margin-bottom: 20px !important; /* Adjust margin */
   }
 
   .right-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+    max-width: 100% !important; /* Adjust image width */
+    height: auto !important; /* Adjust image height */
+    border-radius: 10px !important; /* Adjust border radius */
   }
 }
