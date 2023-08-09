@@ -19,8 +19,12 @@
         </nav>
         <button class="button">Get in Touch</button>
     <!-- Mobile Dropdown Menu -->
+    <div class="mobile-dropdown-trigger">
+        <span>&#9776;</span>
+    </div>
+    <!-- Mobile Dropdown Menu -->
     <div class="mobile-dropdown">
-        <select onchange="location = this.value;">
+        <select onchange="if (this.value) window.location.href=this.value;">
             <option value="" selected>Menu</option>
             <option value="index.html">Home</option>
             <option value="about.html">About</option>
