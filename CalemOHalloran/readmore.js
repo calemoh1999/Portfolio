@@ -3,12 +3,14 @@ function myFunction(dotsId, moreTextId, btnId) {
   var moreText = document.getElementById(moreTextId);
   var btnText = document.getElementById(btnId);
 
-  if (moreText.style.maxHeight === "0px" || moreText.style.maxHeight === "") {
-    moreText.style.maxHeight = "1000px"; // Adjust the value as needed
-    btnText.textContent = "Read less"; 
-  } else {
-    moreText.style.maxHeight = "0";
+  if (dots.style.display === "none" || dots.style.display === "") {
+    dots.style.display = "inline";
     btnText.textContent = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.textContent = "Read less"; 
+    moreText.style.display = "inline";
   }
 }
 

@@ -448,12 +448,18 @@ header {
 
 /* Read More Feature for the home page */
 
+/* Style the hidden content */
+#more1, #more2, #more3 {
+  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease; /* Add transition property for smooth animation */
+}
 
 /* Style the 'Read More' text */
 #myBtn1, #myBtn2, #myBtn3 {
   color: #007bff;
   cursor: pointer;
-  transition: color 0.3s ease;
 }
 
 /* On hover, change the text color */
@@ -461,9 +467,3 @@ header {
   color: #0056b3;
 }
 
-/* Style the hidden content */
-.content-more {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
