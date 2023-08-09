@@ -115,6 +115,7 @@ header {
 }
 
 .right-content img {
+  max-width: calc(100% - 20px);
   height: auto;
   border-radius: 10px;
 }
