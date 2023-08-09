@@ -474,17 +474,23 @@ header {
 /* Mobile styles for .main-section */
 @media (max-width: 768px) {
   .main-section {
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .left-content {
-    padding-right: 0;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
   }
 
   .right-content {
-    display: none;
+    display: block;
+    text-align: center;
   }
 
   .left-content h1 {
@@ -495,11 +501,16 @@ header {
   .left-content p {
     font-size: 16px;
     margin-bottom: 20px;
-    text-align: center; /* Center-align the paragraph text */
   }
 
   .learn-more-button {
     display: block;
-    margin: 0 auto 20px; /* Center-align the button */
+    margin: 0 auto 20px;
+  }
+  
+  .right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 }
