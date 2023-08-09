@@ -522,11 +522,14 @@ header {
 /* Mobile styles for .skills-section */
 @media (max-width: 768px) {
   .skills-section {
-    width: 100%;
-    padding: 20px 0; /* Adjust padding as needed */
+    width: 100vw; /* Use viewport width to cover the entire screen */
+    padding: 20px 0;
     box-sizing: border-box;
     text-align: center;
+    background-color: #f8f8f8; /* Set the background color */
+    overflow: hidden; /* Prevent horizontal scrollbar due to padding */
   }
+  
 
   .skills-section h2 {
     font-size: 24px;
