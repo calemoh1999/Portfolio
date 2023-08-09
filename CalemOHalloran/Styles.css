@@ -544,10 +544,10 @@ header {
   }
 
   .skill-card-container {
-    /* This line is likely causing the issue, remove it */
-    /* width: 80%; */
-    max-width: 100%; /* Add this to ensure the container doesn't extend beyond viewport */
-    margin: 0 auto; /* Center the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .skill-card {
     width: 100%; /* Adjust image width as needed */
