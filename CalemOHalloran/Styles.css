@@ -74,6 +74,7 @@ header {
   position: relative;
   left: 15%;
   max-width: 80%;
+  width: 100%;
 }
 
 .left-content {
@@ -155,6 +156,7 @@ header {
   align-items: center;
   color: #fff;
   position: relative;
+  width: 100%;
 }
 
 .contacts {
