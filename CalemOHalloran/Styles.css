@@ -498,7 +498,7 @@ header {
   .left-content h1 {
     font-size: 30px;
     margin-bottom: 10px;
-    max-width: 85%; /* Adjust the max-width for the heading */
+    max-width: 100%; /* Adjust the max-width for the heading */
   }
 
   .left-content p {
