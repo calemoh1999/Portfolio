@@ -475,8 +475,9 @@ header {
 @media (max-width: 768px) {
   .main-section {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
@@ -484,7 +485,6 @@ header {
 
   .left-content {
     max-width: 85%; /* Adjust the max-width as needed */
-    margin: 0 auto;
     text-align: center;
     padding: 0 15px; /* Indent from left and right */
     margin-bottom: 20px;
