@@ -518,3 +518,62 @@ header {
     border-radius: 10px;
   }
 }
+
+/* Mobile styles for .skills-section */
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+  }
+
+  .skills-content {
+    width: 100%;
+  }
+
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px; /* Adjust margin as needed */
+  }
+
+  .skill-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .skill-text {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .skill-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .skill-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  /* Hide "Read more" initially */
+  #more1, #more2, #more3 {
+    display: none;
+  }
+
+  /* Style the "Read more" button */
+  #myBtn1, #myBtn2, #myBtn3 {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  /* On hover, change the text color */
+  #myBtn1:hover, #myBtn2:hover, #myBtn3:hover {
+    color: #0056b3;
+  }
+}
