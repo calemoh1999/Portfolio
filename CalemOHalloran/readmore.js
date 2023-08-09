@@ -3,11 +3,11 @@ function myFunction(dotsId, moreTextId, btnId) {
   var moreText = document.getElementById(moreTextId);
   var btnText = document.getElementById(btnId);
 
-  if (moreText.style.display === "none" || moreText.style.display === "") {
-    moreText.style.display = "inline";
+  if (moreText.style.maxHeight === "0px" || moreText.style.maxHeight === "") {
+    moreText.style.maxHeight = "1000px"; // Adjust the value as needed
     btnText.textContent = "Read less"; 
   } else {
-    moreText.style.display = "none";
+    moreText.style.maxHeight = "0";
     btnText.textContent = "Read more"; 
   }
 }
