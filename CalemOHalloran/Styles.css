@@ -499,7 +499,6 @@ header {
   .logo {
       flex: 1;
       text-align: left;
-      padding-left: 10px; /* Add a little padding to the left */
   }
 
   .options {
@@ -509,5 +508,22 @@ header {
   .button {
       display: none; /* Hide button for mobile */
   }
+
+  /* Mobile Dropdown Styles */
+  .mobile-dropdown {
+      flex: 1;
+      text-align: right;
+  }
+
+  .mobile-dropdown select {
+      padding: 5px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+  }
 }
+
 
