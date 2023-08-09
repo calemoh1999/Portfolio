@@ -481,7 +481,7 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 10px;
-    width: 100%;
+    width: 100vw; /* Use viewport width */
     box-sizing: border-box;
     overflow: hidden; /* Prevent horizontal overflow */
   }
@@ -519,81 +519,5 @@ header {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-  }
-}
-
-/* Mobile styles for .skills-section */
-@media (max-width: 768px) {
-  .skills-section {
-    width: 100%;
-    padding: 20px 0;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #f8f8f8;
-    overflow: hidden;
-    margin: 0; /* Add this to remove default margin */
-  }
-
-  .skills-section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  .skills-section hr {
-    width: 50%;
-    margin: 0 auto 20px;
-  }
-
-  .skill-card-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .skill-card {
-    width: 100%; /* Adjust width as needed */
-    margin: 0 auto 20px;
-    text-align: center;
-  }
-
-  .skill-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin: 0 auto;
-  }
-
-  .skill-text {
-    width: 100%; /* Adjust text width as needed */
-    margin: 0 auto;
-    text-align: left;
-  }
-
-  .skill-text h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  .skill-text p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-
-  /* Hide "Read more" initially */
-  #more1, #more2, #more3 {
-    display: none;
-  }
-
-  /* Style the "Read more" button */
-  #myBtn1, #myBtn2, #myBtn3 {
-    color: #007bff;
-    cursor: pointer;
-    font-weight: bold;
-  }
-
-  /* On hover, change the text color */
-  #myBtn1:hover, #myBtn2:hover, #myBtn3:hover {
-    color: #0056b3;
   }
 }
