@@ -19,17 +19,15 @@
         </nav>
         <button class="button">Get in Touch</button>
     <!-- Mobile Dropdown Menu -->
-    <div class="mobile-dropdown-trigger">
-        <span>&#9776;</span>
-    </div>
-    <!-- Mobile Dropdown Menu -->
-    <div class="mobile-dropdown">
-        <select onchange="if (this.value) window.location.href=this.value;">
-            <option value="" selected>Menu</option>
-            <option value="index.html">Home</option>
-            <option value="about.html">About</option>
-            <option value="contact.html">Contact</option>
-        </select>
+    <div class="mobile-menu">
+        <button class="mobile-menu-button">&#9776;</button>
+        <div class="mobile-dropdown">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </div>
 </header>
    <!-- The rest of your website content goes here -->

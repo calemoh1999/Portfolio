@@ -502,36 +502,47 @@ header {
       padding-left: 10px; /* Add a little padding to the left */
   }
 
-  .options {
-      display: none; /* Hide options for mobile */
-  }
-
-  .button {
-      display: none; /* Hide button for mobile */
-  }
-
   /* Mobile Dropdown Trigger Styles */
-  .mobile-dropdown-trigger {
+  .mobile-menu-button {
       cursor: pointer;
       font-size: 24px;
       margin-right: 10px;
+      border: none;
+      background: none;
   }
 
   /* Mobile Dropdown Styles */
   .mobile-dropdown {
-      flex: 1;
-      text-align: right;
       display: none;
+      position: absolute;
+      top: 50px; /* Adjust the position as needed */
+      right: 10px; /* Adjust the position as needed */
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
 
-  .mobile-dropdown select {
-      padding: 5px;
-      font-size: 14px;
-      border: none;
-      border-radius: 5px;
-      background-color: #007bff;
-      color: #fff;
-      cursor: pointer;
+  .mobile-dropdown ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .mobile-dropdown li {
+      padding: 10px;
+  }
+
+  .mobile-dropdown a {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+  }
+}
+
+/* For larger screens */
+@media (min-width: 769px) {
+  .mobile-menu {
+      display: none;
   }
 }
 
