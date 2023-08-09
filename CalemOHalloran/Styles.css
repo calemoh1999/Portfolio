@@ -599,3 +599,17 @@ header {
     color: #0056b3;
   }
 }
+/* Hide elements in header for mobile devices */
+@media (max-width: 768px) {
+  .logo {
+    display: none; /* Hide the logo */
+  }
+
+  .options {
+    display: none; /* Hide the navigation options */
+  }
+
+  .button {
+    display: none; /* Hide the "Get in Touch" button */
+  }
+}
