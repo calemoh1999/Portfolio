@@ -532,7 +532,6 @@ header {
     overflow: hidden;
     margin: 0; /* Add this to remove default margin */
   }
-  
 
   .skills-section h2 {
     font-size: 24px;
@@ -551,7 +550,7 @@ header {
   }
 
   .skill-card {
-    width: 100%; /* Adjust image width as needed */
+    width: 80%; /* Adjust width as needed */
     margin: 0 auto 20px;
     text-align: center;
   }
@@ -564,7 +563,7 @@ header {
   }
 
   .skill-text {
-    max-width: 100%; /* Adjust text width as needed */
+    width: 100%; /* Adjust text width as needed */
     margin: 0 auto;
     text-align: left;
   }
