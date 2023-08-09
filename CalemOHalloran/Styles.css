@@ -483,10 +483,8 @@ header {
   }
 
   .left-content {
-    max-width: 70%; /* Adjust the max-width as needed */
+    max-width: 80%; /* Adjust the max-width as needed */
     margin: 0 auto;
-    text-align: left; /* Keep the text aligned to the left */
-    padding: 0 15px; /* Indent from left and right */
     margin-bottom: 20px;
   }
 
