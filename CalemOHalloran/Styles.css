@@ -471,43 +471,11 @@ header {
 
 /* Other existing styles... */
 
-/* Mobile styles for .mobile-main-section */
+/* Mobile styles for the entire page */
 @media (max-width: 768px) {
-  .mobile-main-section {
-    display: block;
-    text-align: center;
-    padding: 20px;
-  }
-
-  .mobile-main-section .left-content {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .mobile-main-section .left-content h1 {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  .mobile-main-section .left-content p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  .mobile-main-section .learn-more-button {
-    padding: 10px 20px;
-    margin-bottom: 20px;
-  }
-
-  .mobile-main-section .right-content {
-    width: 100%;
-    text-align: center;
-  }
-
-  .mobile-main-section .right-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+  body {
+    border: 2px solid #333;
+    box-sizing: border-box;
+    padding: 10px; /* Add some padding to ensure content isn't right against the border */
   }
 }
-
