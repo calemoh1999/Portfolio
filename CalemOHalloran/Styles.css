@@ -497,7 +497,6 @@ header {
   }
 
   .logo {
-      flex: 1;
       text-align: left;
   }
 
@@ -535,13 +534,13 @@ header {
       font-size: 16px;
   }
 
-  .desktop-button {
+  .get-in-touch {
       display: none;
   }
 
   .mobile-menu {
-      text-align: right;
       flex: 1;
+      text-align: right;
   }
 }
 
@@ -551,7 +550,7 @@ header {
       display: none;
   }
 
-  .desktop-button {
+  .get-in-touch {
       display: block;
   }
 }
