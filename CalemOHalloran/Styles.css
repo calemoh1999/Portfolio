@@ -471,32 +471,43 @@ header {
 
 /* Other existing styles... */
 
-/* Mobile styles for .main-section */
+/* Mobile styles for .mobile-main-section */
 @media (max-width: 768px) {
-  .main-section {
-    display: block !important; /* Change display to block */
-    text-align: center !important; /* Center the content */
-    padding: 20px !important; /* Adjust padding */
+  .mobile-main-section {
+    display: block;
+    text-align: center;
+    padding: 20px;
   }
 
-  .left-content h1 {
-    font-size: 30px !important; /* Adjust font size */
-    margin-bottom: 10px !important; /* Adjust margin */
+  .mobile-main-section .left-content {
+    width: 100%;
+    margin-bottom: 20px;
   }
 
-  .left-content p {
-    font-size: 16px !important; /* Adjust font size */
-    margin-bottom: 20px !important; /* Adjust margin */
+  .mobile-main-section .left-content h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
   }
 
-  .learn-more-button {
-    padding: 10px 20px !important; /* Adjust padding */
-    margin-bottom: 20px !important; /* Adjust margin */
+  .mobile-main-section .left-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
   }
 
-  .right-content img {
-    max-width: 100% !important; /* Adjust image width */
-    height: auto !important; /* Adjust image height */
-    border-radius: 10px !important; /* Adjust border radius */
+  .mobile-main-section .learn-more-button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  .mobile-main-section .right-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile-main-section .right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 }
+
