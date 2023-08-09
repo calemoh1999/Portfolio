@@ -502,11 +502,6 @@ header {
       padding-left: 10px;
   }
 
-  .button {
-      flex: 1;
-      text-align: center;
-  }
-
   /* Mobile Dropdown Trigger Styles */
   .mobile-menu-button {
       cursor: pointer;
@@ -514,7 +509,6 @@ header {
       margin-right: 10px;
       border: none;
       background: none;
-      flex: 1; /* Take up some space */
   }
 
   /* Mobile Dropdown Styles */
@@ -549,6 +543,10 @@ header {
 @media (min-width: 769px) {
   .mobile-menu {
       display: none;
+  }
+
+  .desktop-button {
+      display: block;
   }
 }
 
