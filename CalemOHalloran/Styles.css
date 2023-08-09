@@ -470,15 +470,14 @@ header {
 /* Mobile styles for .main-section */
 @media (max-width: 768px) {
   .main-section {
-    display: flex;
-    flex-direction: column;
+    display: block;
     padding: 20px;
     text-align: center;
   }
 
   .left-content {
-    flex: 1;
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .left-content h1 {
@@ -500,6 +499,10 @@ header {
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
+  }
+
+  .right-content {
+    margin: 0 auto;
   }
 
   .right-content img {
