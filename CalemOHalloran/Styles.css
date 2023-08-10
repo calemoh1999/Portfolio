@@ -7,7 +7,7 @@ body {
 }
 
 /* Header styles */
-@media (min-width: 769px) {
+
 header {
   display: flex;
   justify-content: space-between;
@@ -436,7 +436,7 @@ header {
   font-size: 16px;
   margin-bottom: 10px;
 }
-}
+
 /* Additional styles for horizontal layout and spacing */
 
 @media (max-width: 768px) {
@@ -477,19 +477,18 @@ header {
 
 /* Mobile styles for .main-section */
 @media (max-width: 768px) {
-  @media (max-width: 768px) {
-    .main-section {
-      /* Update styles for mobile here */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-      width: 100%;
-      margin: 0 auto;
-      box-sizing: border-box;
-      overflow: hidden;
-    }
+  .main-section {
+    /* Update styles for mobile here */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
   .left-content {
     max-width: 100%; /* Adjust the max-width as needed */
     text-align: center;
@@ -614,5 +613,4 @@ header {
   .button {
     display: none; /* Hide the "Get in Touch" button */
   }
-}
 }
