@@ -13,7 +13,7 @@ header {
   align-items: center;
   background-color: #ffffff;
   padding: 10px;
-  width: 100%;
+  width: 100vw;
 }
 
 /* Option styles */
@@ -73,7 +73,7 @@ header {
   position: relative;
   left: 15%;
   max-width: 80%;
-  width: 100%;
+  width: 100vw;
 }
 
 .left-content {
