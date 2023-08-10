@@ -85,7 +85,7 @@ header {
 
 .left-content {
   flex: 1;
-  max-width: 60%; /* Adjust the max-width as needed */
+  max-width: 100%; /* Adjust the max-width as needed */
   text-align: left; /* Align paragraphs to the left */
 }
 
