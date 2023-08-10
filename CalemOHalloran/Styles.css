@@ -485,17 +485,17 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 0; /* Adjust padding for top and bottom */
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
   }
 
   .left-content {
-    max-width: 100%; /* Set max-width to 100% for full width */
-    text-align: center; /* Center the text */
-    padding: 0; /* Remove padding */
+    max-width: 100%;
+    text-align: center;
     margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
   }
 
   .left-content h1 {
@@ -519,11 +519,11 @@ header {
     font-size: 18px;
     margin-top: 10px;
   }
-  
+
   .right-content {
-    margin: 20px 0; /* Add margin to separate image from text */
+    margin-top: 20px; /* Add margin-top to separate image from text */
   }
-  
+
   .right-content img {
     max-width: 100%;
     height: auto;
