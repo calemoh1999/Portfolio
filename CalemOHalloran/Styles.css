@@ -66,60 +66,53 @@ header {
 
 /* Main section styles */
 
-.main-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  max-width: 80%; /* Set the same max-width as the skills-section */
-  width: 100%;
-  margin: 0 auto; /* Center the section horizontally */
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.left-content {
-  flex: 1;
+@media (min-width: 769px) {
+  .main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
   
-}
-
-.left-content h1 {
-  font-size: 46px;
-  margin-bottom: .5em;
-  margin-top: -1.5rem;
-  max-width: 50%;
-}
-
-.left-content p {
-  font-size: 18px;
-  margin-bottom: 1.5em;
-  line-height: 1.5;
-}
-
-.learn-more-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 18px;
-}
-
-.right-content {
-  flex: 1;
-}
-
-.right-image-container {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.right-content img {
-  max-width: calc(100% - 20px);
-  height: auto;
-  border-radius: 10px;
+  .left-content {
+    flex: 1;
+    padding-right: 30px;
+    text-align: left; /* Ensure text alignment */
+  }
+  
+  .left-content h1 {
+    font-size: 46px;
+    margin-top: -1.5rem;
+    margin-bottom: 0.5em;
+    max-width: 50%;
+  }
+  
+  .left-content p {
+    font-size: 18px;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+  }
+  
+  .learn-more-button {
+    display: inline-block;
+    margin-top: 0.5em; /* Adjust top margin */
+  }
+  
+  .right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .right-image-container img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
 }
 
 /* Stay in touch section styles */
@@ -480,41 +473,37 @@ header {
 /* Mobile styles for .main-section */
 @media (max-width: 768px) {
   .main-section {
-    /* Update styles for mobile here */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    max-width: 80%;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
     overflow: hidden;
   }
+  
   .left-content {
-    max-width: 100%; /* Adjust the max-width as needed */
     text-align: center;
-    padding: 0 15px; /* Indent from left and right */
+    padding: 0 15px;
     margin-bottom: 20px;
+    max-width: 100%;
   }
-
+  
   .right-content {
     display: block;
     text-align: center;
   }
-
+  
   .left-content h1 {
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 10px;
-    max-width: 100%; /* Adjust the max-width for the heading */
+    max-width: 100%;
   }
-
+  
   .left-content p {
     font-size: 16px;
     margin-bottom: 20px;
   }
-
+  
   .learn-more-button {
     display: block;
     margin: 0 auto 20px;
