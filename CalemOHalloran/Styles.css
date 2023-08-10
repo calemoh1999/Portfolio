@@ -486,6 +486,7 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 20px 0; /* Adjust padding for top and bottom */
+    margin: 0; /* Remove margin */
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
@@ -494,13 +495,12 @@ header {
   .left-content {
     max-width: 100%;
     text-align: center;
-    margin: 0; /* Remove margin */
     padding: 0; /* Remove padding */
   }
 
   .left-content h1 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin: 0; /* Remove margin */
     max-width: 100%;
   }
 
