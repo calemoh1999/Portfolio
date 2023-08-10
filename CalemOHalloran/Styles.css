@@ -68,13 +68,15 @@ header {
 
 .main-section {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 20px;
-  position: relative;
-  left: 15%;
-  max-width: 80%;
+  max-width: 80%; /* Set the same max-width as the skills-section */
   width: 100%;
+  margin: 0 auto; /* Center the section horizontally */
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .left-content {
