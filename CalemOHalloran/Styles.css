@@ -487,10 +487,10 @@ header {
     flex-direction: column;
     padding: 10px;
     width: 100vw; /* Use viewport width */
-    max-width: 100%; /* Use viewport width */
+    max-width: 100%; /* Ensure the section takes the full width */
     box-sizing: border-box;
     overflow: hidden; /* Prevent horizontal overflow */
-    margin: 0; /* Reset margins */
+    margin: 0; /* Remove any default margin */
   }
 
   .left-content {
@@ -521,13 +521,14 @@ header {
     display: block;
     margin: 0 auto 20px;
   }
-
+  
   .right-content img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
   }
 }
+
 
 /* Mobile styles for .skills-section */
 @media (max-width: 768px) {
