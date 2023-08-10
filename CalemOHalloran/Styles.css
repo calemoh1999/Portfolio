@@ -483,7 +483,7 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 10px;
-    width: 100vw; /* Use viewport width */
+    max-width: 100%; /* Use viewport width */
     box-sizing: border-box;
     overflow: hidden; /* Prevent horizontal overflow */
   }
