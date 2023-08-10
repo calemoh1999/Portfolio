@@ -482,38 +482,30 @@ header {
 @media (max-width: 768px) {
   .main-section {
     display: flex;
-    justify-content: center; /* Center content horizontally */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    width: 100vw; /* Use viewport width */
-    max-width: 100%; /* Use viewport width */
-    box-sizing: border-box; /* Ensure padding is included in width calculation */
-    overflow: hidden; /* Prevent horizontal overflow */
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   .left-content {
-    max-width: 80%; /* Adjust the max-width as needed */
-    text-align: left; /* Align paragraphs to the left */
+    max-width: 100%; /* Set max-width to 100% for full width */
+    text-align: center; /* Center the text */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
   }
 
-  .right-content {
-    display: block;
-    text-align: center;
-    margin-top: 20px; /* Add some margin between left and right content */
-  }
-
   .left-content h1 {
-    font-size: 24px; /* Adjust font size for mobile */
-    margin-top: 0; /* Remove top margin to align with image */
+    font-size: 24px;
     margin-bottom: 10px;
-    max-width: 100%; /* Adjust the max-width for the heading */
+    max-width: 100%;
   }
 
   .left-content p {
-    font-size: 16px; /* Adjust font size for mobile */
+    font-size: 16px;
     margin-bottom: 20px;
   }
 
@@ -525,7 +517,11 @@ header {
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-    margin-top: 10px; /* Add margin for spacing */
+    margin-top: 10px;
+  }
+  
+  .right-content {
+    margin: 20px 0; /* Add margin to separate image from text */
   }
   
   .right-content img {
