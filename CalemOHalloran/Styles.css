@@ -1,3 +1,4 @@
+@@ -1,618 +1,616 @@
 body {
   margin: 0;
   padding: 0;
@@ -68,9 +69,13 @@ header {
 
 .main-section {
   display: flex;
+  justify-content: center; /* Center horizontally */
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  max-width: 100%; /* Adjust the max-width as needed */
+  box-sizing: border-box;
+  overflow: hidden; /* Prevent horizontal overflow */
   position: relative;
   left: 15%;
   max-width: 80%;
@@ -79,8 +84,12 @@ header {
 
 .left-content {
   flex: 1;
+  text-align: center;
+  padding: 0; /* Remove padding-right */
+  margin-bottom: 20px;
   
 }
+
 
 .left-content h1 {
   font-size: 46px;
@@ -478,17 +487,16 @@ header {
 /* Mobile styles for .main-section */
 @media (max-width: 768px) {
   .main-section {
-    /* Update styles for mobile here */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    width: 100%;
-    margin: 0 auto;
+    flex-direction: column;
+    padding: 10px;
+    width: 100vw; /* Use viewport width */
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: hidden; /* Prevent horizontal overflow */
   }
+
   .left-content {
     max-width: 100%; /* Adjust the max-width as needed */
     text-align: center;
