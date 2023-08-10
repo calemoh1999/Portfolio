@@ -485,24 +485,31 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 0; /* Adjust padding for top and bottom */
-    margin: 0; /* Remove margin */
-    width: 100%;
+    padding: 10px;
+    width: 100vw; /* Use viewport width */
+    max-width: 100%; /* Use viewport width */
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: hidden; /* Prevent horizontal overflow */
+    margin: 0; /* Reset margins */
   }
 
   .left-content {
-    max-width: 100%;
+    max-width: 100%; /* Adjust the max-width as needed */
     text-align: center;
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
+    padding: 0 15px; /* Indent from left and right */
+    margin-bottom: 20px;
+  }
+
+  .right-content {
+    display: block;
+    text-align: center;
   }
 
   .left-content h1 {
     font-size: 24px;
-    margin: 0; /* Remove margin */
-    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-width: 100%; /* Adjust the max-width for the heading */
   }
 
   .left-content p {
@@ -511,18 +518,8 @@ header {
   }
 
   .learn-more-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-top: 10px;
-  }
-
-  .right-content {
-    margin-top: 20px; /* Add margin-top to separate image from text */
+    display: block;
+    margin: 0 auto 20px;
   }
 
   .right-content img {
