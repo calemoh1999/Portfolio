@@ -12,6 +12,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+  padding-top: 10px;
   width: 100vw;
 }
 
@@ -484,12 +485,11 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
-    width: 100vw; /* Use viewport width */
-    max-width: 100%; /* Ensure the section takes the full width */
+    padding: 20px; /* Adjust padding as needed */
+    margin: 0; /* Remove margin */
+    width: 100%; /* Use 100% of the viewport width */
     box-sizing: border-box;
     overflow: hidden; /* Prevent horizontal overflow */
-    margin: 0; /* Remove any default margin */
   }
 
   .left-content {
@@ -505,14 +505,14 @@ header {
   }
 
   .left-content h1 {
-    font-size: 24px;
+    font-size: 24px; /* Adjust font size */
     margin-top: 20px;
     margin-bottom: 10px;
     max-width: 100%; /* Adjust the max-width for the heading */
   }
 
   .left-content p {
-    font-size: 16px;
+    font-size: 16px; /* Adjust font size */
     margin-bottom: 20px;
   }
 
@@ -527,7 +527,6 @@ header {
     border-radius: 10px;
   }
 }
-
 
 /* Mobile styles for .skills-section */
 @media (max-width: 768px) {
