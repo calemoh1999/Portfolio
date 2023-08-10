@@ -67,13 +67,20 @@ header {
 
 .main-section {
   display: flex;
-  justify-content: space-between; /* Keep content spaced between items */
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   position: relative;
-  left: 15%;
   max-width: 80%;
   width: 100vw;
+}
+
+/* New container for content indentation */
+.main-content-container {
+  flex: 1;
+  max-width: 70%; /* Adjust the max-width as needed */
+  text-align: left; /* Align paragraphs to the left */
+  margin-left: 15%; /* Indentation for content */
 }
 
 .left-content {
