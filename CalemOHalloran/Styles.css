@@ -81,6 +81,7 @@ header {
 .main-content-container {
   display: flex;
   flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  margin: 0 -20px; /* Add negative margin to compensate for padding */
 }
 
 .left-content {
@@ -131,8 +132,6 @@ header {
   border-radius: 10px;
   max-height: 100%; /* Adjust the max-height as needed */
 }
-
-
 
 /* Stay in touch section styles */
 
