@@ -73,6 +73,7 @@ header {
   position: relative;
   max-width: 80%;
   margin: 0 auto; /* Center the content horizontally */
+  margin-top: 20px;
 }
 
 .main-content-container {
@@ -117,6 +118,7 @@ header {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  max-height: 300px; /* Adjust the max-height as needed */
 }
 
 
