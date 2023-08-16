@@ -67,6 +67,8 @@ header {
 
 /* Other existing styles... */
 
+/* Other existing styles... */
+
 .main-section {
   display: flex;
   justify-content: space-between;
@@ -128,7 +130,6 @@ header {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  max-height: 100%; /* Adjust the max-height as needed */
 }
 
 /* Stay in touch section styles */
