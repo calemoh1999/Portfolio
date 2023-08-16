@@ -68,25 +68,17 @@ header {
 .main-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start; /* Align content to the top */
   padding: 20px;
   position: relative;
   max-width: 80%;
   margin: 0;
 }
 
-/* New container for content indentation */
 .main-content-container {
   flex: 1;
-  max-width: 100%; /* Adjust the max-width as needed */
-  text-align: left; /* Align paragraphs to the left */
-  margin-left: 15%; /* Indentation for content */
-}
-
-.left-content {
-  flex: 1;
+  max-width: 40%; /* Adjust the text width as needed */
   text-align: left;
-  margin-right: 20px; /* Add some spacing between text and image */
 }
 
 .left-content h1 {
@@ -95,6 +87,14 @@ header {
   margin-top: -1.5rem;
   max-width: 100%;
 }
+
+.left-content {
+  flex: 1;
+  text-align: left;
+  margin-right: 20px; /* Add some spacing between text and image */
+}
+
+
 
 .left-content p {
   font-size: 18px;
@@ -117,13 +117,8 @@ header {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start; /* Align image to top */
-  margin-left: 20px; /* Add some spacing between text and image */
-}
-
-.right-image-container {
-  display: flex;
-  justify-content: flex-end;
+  align-items: flex-start; /* Align image to the top */
+  max-width: 60%; /* Adjust the image width as needed */
 }
 
 .right-content img {
