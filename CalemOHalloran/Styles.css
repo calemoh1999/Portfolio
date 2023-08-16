@@ -138,6 +138,12 @@ header {
   .left-content {
     text-align: center;
     margin-right: 0;
+    padding: 20px; /* Add padding for spacing */
+    max-width: 80%; /* Adjust max-width for better readability */
+  }
+
+  .left-content h1 {
+    font-size: 32px; /* Decrease font size for mobile */
   }
 
   .learn-more-button {
