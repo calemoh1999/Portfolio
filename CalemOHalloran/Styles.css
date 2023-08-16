@@ -83,7 +83,11 @@ header {
 
 .left-content {
   flex: 1;
-  padding-right: 20px; /* Add some spacing between text and image */
+  text-align: left;
+  margin-right: 20px; /* Add some spacing between text and image */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .left-content h1 {
@@ -112,13 +116,16 @@ header {
 
 .right-content {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start; /* Align image to the top */
 }
 
 .right-content img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  max-height: 300px; /* Adjust the max-height as needed */
+  max-height: 100%; /* Adjust the max-height as needed */
 }
 
 
