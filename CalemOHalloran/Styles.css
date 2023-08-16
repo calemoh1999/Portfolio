@@ -71,30 +71,26 @@ header {
   align-items: flex-start; /* Align content to the top */
   padding: 20px;
   position: relative;
-  max-width: 100%;
-  margin: 0;
+  max-width: 80%;
+  margin: 0 auto; /* Center the content horizontally */
 }
 
 .main-content-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+}
+
+.left-content {
   flex: 1;
-  max-width: 100%; /* Adjust the text width as needed */
-  text-align: left;
+  padding-right: 20px; /* Add some spacing between text and image */
 }
 
 .left-content h1 {
   font-size: 46px;
   margin-bottom: 0.5em;
   margin-top: -1.5rem;
-  max-width: 60%;
+  max-width: 100%;
 }
-
-.left-content {
-  flex: 1;
-  text-align: left;
-  margin-right: 20px; /* Add some spacing between text and image */
-}
-
-
 
 .left-content p {
   font-size: 18px;
@@ -115,10 +111,6 @@ header {
 
 .right-content {
   flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start; /* Align image to the top */
-  max-width: 60%; /* Adjust the image width as needed */
 }
 
 .right-content img {
@@ -126,6 +118,7 @@ header {
   height: auto;
   border-radius: 10px;
 }
+
 
 /* Stay in touch section styles */
 
