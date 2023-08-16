@@ -73,7 +73,7 @@ header {
   position: relative;
   left: 15%;
   max-width: 80%;
-  width: 100vw;
+  width: 100%;
 }
 
 .left-content {
