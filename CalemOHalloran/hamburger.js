@@ -1,6 +1,6 @@
-const mobileMenu = document.querySelector('.mobile-menu');
 const hamburgerButton = document.querySelector('.hamburger-button');
+const options = document.querySelector('.options');
 
 hamburgerButton.addEventListener('click', () => {
-    mobileMenu.classList.toggle('active');
+    options.classList.toggle('active');
 });
