@@ -128,6 +128,27 @@ header {
   border-radius: 10px;
 }
 
+/* Mobile styles for .main-section */
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-content {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .learn-more-button {
+    margin-top: 20px;
+  }
+
+  .right-content {
+    margin-top: 20px;
+  }
+}
+
 /* Stay in touch section styles */
 
 .stay-in-touch {
