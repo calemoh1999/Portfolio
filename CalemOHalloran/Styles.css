@@ -71,13 +71,13 @@ header {
   align-items: flex-start; /* Align content to the top */
   padding: 20px;
   position: relative;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0;
 }
 
 .main-content-container {
   flex: 1;
-  max-width: 40%; /* Adjust the text width as needed */
+  max-width: 100%; /* Adjust the text width as needed */
   text-align: left;
 }
 
@@ -85,7 +85,7 @@ header {
   font-size: 46px;
   margin-bottom: 0.5em;
   margin-top: -1.5rem;
-  max-width: 100%;
+  max-width: 60%;
 }
 
 .left-content {
