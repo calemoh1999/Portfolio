@@ -65,6 +65,8 @@ header {
 
 /* Main section styles */
 
+/* Other existing styles... */
+
 .main-section {
   display: flex;
   justify-content: space-between;
@@ -92,14 +94,14 @@ header {
 
 .left-content h1 {
   font-size: 46px;
-  margin-bottom: 0.5em;
+  margin-bottom: 10px; /* Adjust the margin as needed */
   margin-top: -1.5rem;
   max-width: 100%;
 }
 
 .left-content p {
   font-size: 18px;
-  margin-bottom: 1.5em;
+  margin-bottom: 20px; /* Adjust the margin as needed */
   line-height: 1.5;
 }
 
@@ -111,7 +113,9 @@ header {
   text-decoration: none;
   border-radius: 5px;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 10px; /* Adjust the margin as needed */
+  max-width: 200px; /* Limit the button width */
+  text-align: center; /* Center the button text */
 }
 
 .right-content {
@@ -127,6 +131,7 @@ header {
   border-radius: 10px;
   max-height: 100%; /* Adjust the max-height as needed */
 }
+
 
 
 /* Stay in touch section styles */
