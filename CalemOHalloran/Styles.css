@@ -4,6 +4,7 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
   box-sizing: border-box; /* Add this line for consistent box-sizing */
+  background-color: #f8f8f8;
 }
 
 /* Header styles */
