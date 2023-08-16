@@ -139,11 +139,11 @@ header {
     text-align: center;
     margin-right: 0;
     padding: 20px;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .left-content h1 {
-    font-size: 32px;
+    font-size: 26px;
     line-height: 1.2; /* Increase line height for better spacing */
     margin-bottom: 15px; /* Increase margin for spacing */
   }
