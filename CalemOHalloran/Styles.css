@@ -85,15 +85,15 @@ header {
 
 .left-content {
   flex: 1;
-  max-width: 70%; /* Adjust the max-width as needed */
-  text-align: left; /* Align paragraphs to the left */
+  text-align: left;
+  margin-right: 20px; /* Add some spacing between text and image */
 }
 
 .left-content h1 {
   font-size: 46px;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   margin-top: -1.5rem;
-  max-width: 70%;
+  max-width: 100%;
 }
 
 .left-content p {
@@ -117,6 +117,8 @@ header {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  align-items: flex-start; /* Align image to top */
+  margin-left: 20px; /* Add some spacing between text and image */
 }
 
 .right-image-container {
@@ -125,7 +127,7 @@ header {
 }
 
 .right-content img {
-  max-width: calc(100% - 20px);
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
 }
