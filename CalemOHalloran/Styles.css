@@ -64,73 +64,6 @@ header {
   font-weight: bold;
 }
 
-/* Media query for mobile layout */
-/* Add this CSS to your existing styles */
-@media (max-width: 768px) {
-  /* Hide the default options */
-  .options {
-      display: none;
-  }
-
-  /* Show the mobile menu button */
-  .hamburger-button {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 10px;
-  }
-
-  .hamburger-icon {
-      width: 25px;
-      height: 3px;
-      background-color: #333;
-      margin: 3px 0;
-  }
-
-  /* Style the mobile menu */
-  .mobile-menu {
-      display: none;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-  }
-
-  .mobile-menu.active {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      right: 0;
-      background-color: #ffffff;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      z-index: 1;
-  }
-
-  .mobile-menu li {
-      margin: 0;
-      padding: 10px;
-      text-align: right;
-  }
-
-  /* Center the button */
-  .button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
-  }
-
-  /* Hide the mobile menu on laptops */
-  @media (min-width: 769px) {
-      .mobile-menu.active {
-          display: none;
-      }
-  }
-}
-
 /* Main section styles */
 
 .main-section {
@@ -656,5 +589,19 @@ header {
   /* On hover, change the text color */
   #myBtn1:hover, #myBtn2:hover, #myBtn3:hover {
     color: #0056b3;
+  }
+}
+/* Hide elements in header for mobile devices */
+@media (max-width: 768px) {
+  .logo {
+    display: none; /* Hide the logo */
+  }
+
+  .options {
+    display: none; /* Hide the navigation options */
+  }
+
+  .button {
+    display: none; /* Hide the "Get in Touch" button */
   }
 }
