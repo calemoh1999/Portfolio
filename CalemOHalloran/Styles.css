@@ -81,7 +81,6 @@ header {
 .main-content-container {
   display: flex;
   flex-wrap: wrap; /* Allow content to wrap on smaller screens */
-  margin: 0 -20px; /* Add negative margin to compensate for padding */
 }
 
 .left-content {
@@ -95,14 +94,13 @@ header {
 
 .left-content h1 {
   font-size: 46px;
-  margin-bottom: 10px;
+  margin-bottom: 0.5em;
   margin-top: -1.5rem;
   max-width: 100%;
 }
 
 .left-content p {
   font-size: 18px;
-  margin-bottom: 15px; /* Adjust the margin as needed */
   line-height: 1.5;
 }
 
