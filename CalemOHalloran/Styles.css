@@ -138,12 +138,19 @@ header {
   .left-content {
     text-align: center;
     margin-right: 0;
-    padding: 20px; /* Add padding for spacing */
-    max-width: 80%; /* Adjust max-width for better readability */
+    padding: 20px;
+    max-width: 80%;
   }
 
   .left-content h1 {
-    font-size: 32px; /* Decrease font size for mobile */
+    font-size: 32px;
+    line-height: 1.2; /* Increase line height for better spacing */
+    margin-bottom: 15px; /* Increase margin for spacing */
+  }
+
+  .left-content p {
+    margin-bottom: 20px; /* Increase margin for spacing */
+    line-height: 1.6; /* Adjust line height for better spacing */
   }
 
   .learn-more-button {
