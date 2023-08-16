@@ -65,6 +65,7 @@ header {
 }
 
 /* Media query for mobile layout */
+/* Add this CSS to your existing styles */
 @media (max-width: 768px) {
   /* Hide the default options */
   .options {
@@ -83,10 +84,10 @@ header {
   }
 
   .hamburger-icon {
-      width: 30px;
-      height: 4px;
+      width: 25px;
+      height: 3px;
       background-color: #333;
-      margin: 6px 0;
+      margin: 3px 0;
   }
 
   /* Style the mobile menu */
@@ -120,6 +121,13 @@ header {
       align-items: center;
       justify-content: center;
       padding: 10px;
+  }
+
+  /* Hide the mobile menu on laptops */
+  @media (min-width: 769px) {
+      .mobile-menu.active {
+          display: none;
+      }
   }
 }
 
