@@ -478,56 +478,6 @@ header {
 
 /* Other existing styles... */
 
-/* Mobile styles for .main-section */
-@media (max-width: 768px) {
-  .main-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px; /* Adjust padding as needed */
-    margin: 0; /* Remove margin */
-    width: 100%; /* Use 100% of the viewport width */
-    box-sizing: border-box;
-    overflow: hidden; /* Prevent horizontal overflow */
-  }
-
-  .left-content {
-    max-width: 100%; /* Adjust the max-width as needed */
-    text-align: center;
-    padding: 0 15px; /* Indent from left and right */
-    margin-bottom: 20px;
-  }
-
-  .right-content {
-    display: block;
-    text-align: center;
-  }
-
-  .left-content h1 {
-    font-size: 24px; /* Adjust font size */
-    margin-top: 20px;
-    margin-bottom: 10px;
-    max-width: 100%; /* Adjust the max-width for the heading */
-  }
-
-  .left-content p {
-    font-size: 16px; /* Adjust font size */
-    margin-bottom: 20px;
-  }
-
-  .learn-more-button {
-    display: block;
-    margin: 0 auto 20px;
-  }
-  
-  .right-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-}
-
 /* Mobile styles for .skills-section */
 @media (max-width: 768px) {
   .skills-section {
