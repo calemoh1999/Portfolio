@@ -14,7 +14,8 @@ header {
   align-items: center;
   background-color: #ffffff;
   padding-top: 10px;
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box; /* Add this line for consistent box-sizing */
 }
 
 /* Option styles */
