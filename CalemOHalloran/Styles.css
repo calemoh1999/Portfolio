@@ -65,47 +65,33 @@ header {
 
 /* Main section styles */
 
-/* Other existing styles... */
-
-/* Other existing styles... */
-
-/* Other existing styles... */
-
 .main-section {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start; /* Align content to the top */
+  justify-content: space-between; /* Keep content spaced between items */
+  align-items: center;
   padding: 20px;
   position: relative;
+  left: 15%;
   max-width: 80%;
-  margin: 0 auto; /* Center the content horizontally */
-  margin-top: 20px;
-}
-
-.main-content-container {
-  display: flex;
-  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  width: 100vw;
 }
 
 .left-content {
   flex: 1;
-  text-align: left;
-  margin-right: 20px; /* Add some spacing between text and image */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%; /* Set a fixed height for the left content */
+  max-width: 60%; /* Adjust the max-width as needed */
+  text-align: left; /* Align paragraphs to the left */
 }
 
 .left-content h1 {
   font-size: 46px;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
   margin-top: -1.5rem;
   max-width: 100%;
 }
 
 .left-content p {
   font-size: 18px;
+  margin-bottom: 1.5em;
   line-height: 1.5;
 }
 
@@ -117,23 +103,23 @@ header {
   text-decoration: none;
   border-radius: 5px;
   font-size: 18px;
-  margin-top: 10px;
-  max-width: 200px;
-  text-align: center;
+  margin-top: 20px;
 }
 
 .right-content {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start; /* Align image to the top */
-  height: 100%; /* Set a fixed height for the right content */
-  overflow: hidden; /* Hide any overflow */
+}
+
+.right-image-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .right-content img {
-  max-width: 70%;
-  height: 70%; /* Set the image height to match the left content */
+  max-width: calc(100% - 20px);
+  height: auto;
   border-radius: 10px;
 }
 
