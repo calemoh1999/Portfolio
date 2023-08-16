@@ -1,10 +1,11 @@
-/* Reset the margin and padding for the body element */
 body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+  box-sizing: border-box; /* Add this line for consistent box-sizing */
 }
+
 /* Header styles */
 
 header {
@@ -67,13 +68,16 @@ header {
 
 .main-section {
   display: flex;
-  justify-content: space-between; /* Keep content spaced between items */
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
-  position: relative;
-  left: 15%;
   max-width: 80%;
-  width: 100%;
+  margin: 0 auto; /* Center the content horizontally */
+  background-color: #f8f8f8;
+  overflow: hidden; /* Add this to hide any overflow */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-sizing: border-box; /* Add this line for consistent box-sizing */
 }
 
 .left-content {
