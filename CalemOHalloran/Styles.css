@@ -630,7 +630,7 @@ header {
   display: flex;
   flex-direction: row; /* Display image and text side by side */
   align-items: center; /* Align content vertically */
-  gap: 15%;
+  gap: 10%;
   max-width: 100%;
 }
 
@@ -642,7 +642,7 @@ header {
 
 .about-text {
   text-align: left;
-  max-width: 70%;
+  max-width: 50%;
 }
 
 .about-text h3 {
