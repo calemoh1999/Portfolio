@@ -793,3 +793,47 @@ header {
   color: #777; /* Adjust the color to your desired shade of grey */
 }
 
+/* media query for work experience */
+
+.work-experience-section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.work-experience-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.work-card {
+  display: block; /* Change to block layout for mobile */
+  margin-bottom: 20px; /* Add some spacing between cards */
+}
+
+.work-content {
+  text-align: left;
+}
+
+.work-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px; /* Add some spacing between image and content */
+}
+
+.work-content h3 {
+  font-size: 20px;
+  margin-bottom: 5px; /* Adjust margin for better spacing */
+}
+
+.grey-text {
+  font-size: 16px;
+  color: #888; /* Change color to grey */
+  margin-bottom: 5px; /* Adjust margin for better spacing */
+}
+
+.work-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
