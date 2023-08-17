@@ -611,6 +611,7 @@ header {
   text-align: center;
   margin: 0 auto; /* Center the section horizontally */
   max-width: 80%; /* Adjust the max-width as needed */
+  padding-bottom: 20px;
 }
 
 .about-section h2 {
