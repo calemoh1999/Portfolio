@@ -735,3 +735,8 @@ header {
   line-height: 1.5;
   margin-bottom: 0;
 }
+
+.grey-text {
+  color: #777; /* Adjust the color to your desired shade of grey */
+}
+
