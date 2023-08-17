@@ -675,18 +675,9 @@ header {
 
 /* start of work experience section */
 
-.work-experience-section {
-  padding: 30px 0;
-  text-align: center;
-  background-color: #f8f8f8;
-}
-
-.work-experience-section h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
 .work-card {
+  display: flex;
+  align-items: center;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -695,19 +686,28 @@ header {
   max-width: 80%;
 }
 
-.work-card img {
+.work-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.work-image img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  margin-bottom: 10px;
 }
 
-.work-card h3 {
+.work-content {
+  flex: 3;
+  text-align: left;
+}
+
+.work-content h3 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.work-card p {
+.work-content p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 0;
