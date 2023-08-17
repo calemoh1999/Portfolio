@@ -609,7 +609,6 @@ header {
 /* Add this CSS to your existing styles */
 .about-section {
   text-align: center;
-  padding: 50px 0; /* Increase the top and bottom padding for more space */
   margin: 0 auto; /* Center the section horizontally */
   max-width: 80%; /* Adjust the max-width as needed */
 }
