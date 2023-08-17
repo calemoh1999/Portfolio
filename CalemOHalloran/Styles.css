@@ -605,3 +605,55 @@ header {
     display: none; /* Hide the "Get in Touch" button */
   }
 }
+
+/* Add this CSS to your existing styles */
+.about-section {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.section-line {
+  width: 50px;
+  height: 2px;
+  background-color: #333;
+  margin: 0 auto 20px;
+}
+
+.about-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-text {
+  text-align: left;
+  max-width: 100%;
+}
+
+.about-text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-text .section-line {
+  width: 30px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
