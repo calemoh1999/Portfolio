@@ -696,7 +696,6 @@ header {
 }
 
 .work-card img {
-  mix-blend-mode: color-burn;
   max-width: 100%;
   height: auto;
   border-radius: 10px;
