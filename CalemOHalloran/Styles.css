@@ -682,7 +682,7 @@ header {
   width: 30px; /* Adjust the width as needed */
   height: 30px; /* To maintain a square shape */
   border-radius: 5px; /* Optional: Add rounded corners */
-  margin-left: 10px; /* Add some spacing between the LinkedIn and Gmail logos */
+  margin-left: 5%; /* Add some spacing between the LinkedIn and Gmail logos */
 }
 
 /*css for mobile about me section */
@@ -707,30 +707,25 @@ header {
       max-width: 100%;
   }
 
-  .linkedin-link {
-      margin-top: 20px;
+  .contact-links {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
   }
-
-  .linkedin-logo {
-      width: 30px;
-      height: 30px;
-      border-radius: 5px;
+  
+  .linkedin-link,
+  .gmail-link {
+    display: inline-block;
+    margin-right: 10px; /* Add some spacing between the logos */
   }
-}
-
-.gmail-link {
-  margin-top: 10px; /* Add some spacing from the LinkedIn image */
-}
-
-.gmail-logo {
-  width: 30px; /* Adjust the width as needed */
-  height: 30px; /* To maintain a square shape */
-  border-radius: 5px; /* Optional: Add rounded corners */
-  margin-left: 10px; /* Add some spacing between the LinkedIn and Gmail logos */
-}
-
-
-
+  
+  .linkedin-logo,
+  .gmail-logo {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* To maintain a square shape */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  
 /* start of work experience section */
 
 .work-card {
@@ -797,3 +792,4 @@ header {
   color: #777; /* Adjust the color to your desired shade of grey */
 }
 
+}
