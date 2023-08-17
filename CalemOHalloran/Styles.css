@@ -629,7 +629,7 @@ header {
   display: flex;
   flex-direction: row; /* Display image and text side by side */
   align-items: center; /* Align content vertically */
-  gap: 60px;
+  gap: 15%;
   max-width: 100%;
 }
 
