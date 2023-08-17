@@ -237,7 +237,7 @@ header {
   .footer .row ul li {
       display: block;
       margin: 10px 0;
-      text-align: left;
+      text-align: center;
   }
 
   .footer .row a i {
