@@ -676,33 +676,6 @@ header {
 
 /* start of work experience section */
 
-.work-card {
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin: 0 auto 20px;
-  max-width: 80%;
-}
-
-.work-image {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.work-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.work-content {
-  flex: 3;
-  text-align: left;
-}
-
 .work-experience {
   text-align: center;
   background-color: #f8f8f8;
@@ -722,13 +695,40 @@ header {
   margin: 0 auto 20px;
 }
 
-.work-content h3 {
+.work-experience-cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.work-experience-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 0 10px;
+}
+
+.work-experience-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.work-experience-card-content {
+  text-align: left;
+  max-width: 100%;
+}
+
+.work-experience-card h3 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.work-content p {
+.work-experience-card p {
   font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
