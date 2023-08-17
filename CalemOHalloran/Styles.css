@@ -674,6 +674,39 @@ header {
   border-radius: 5px; /* Optional: Add rounded corners */
 }
 
+/*css for mobile about me section */
+
+@media (max-width: 768px) {
+  .about-content-container {
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      text-align: center;
+  }
+
+  .about-image img {
+      width: 70%; /* Adjust the image width as needed */
+  }
+
+  .about-subheading h3 {
+      font-size: 20px;
+  }
+
+  .about-text {
+      max-width: 100%;
+  }
+
+  .linkedin-link {
+      margin-top: 20px;
+  }
+
+  .linkedin-logo {
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+  }
+}
+
 /* start of work experience section */
 
 .work-card {
