@@ -609,12 +609,12 @@ header {
 /* Add this CSS to your existing styles */
 .about-section {
   text-align: center;
-  padding: 30px 0;
+  padding: 50px 0; /* Increase the top and bottom padding for more space */
 }
 
 .about-section h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 36px; /* Increase the font size for the heading */
+  margin-bottom: 20px; /* Increase the margin to add space */
 }
 
 .section-line {
@@ -626,15 +626,11 @@ header {
 
 .about-content-container {
   display: flex;
-  flex-direction: row; /* Change to row */
-  align-items: center;
+  flex-direction: row; /* Display image and text side by side */
+  align-items: center; /* Align content vertically */
   gap: 20px;
   max-width: 80%;
   margin: 0 auto;
-}
-
-.about-image {
-  width: 70%; /* Adjust the width as needed */
 }
 
 .about-image img {
@@ -649,15 +645,21 @@ header {
 }
 
 .about-text h3 {
-  font-size: 20px;
+  font-size: 24px; /* Adjust the font size for the heading */
   margin-bottom: 10px;
+  margin-top: 0; /* Push the heading up by removing default margin */
+  text-decoration: underline; /* Add underline to the heading */
+  text-underline-offset: 5px; /* Adjust the distance between text and underline */
 }
 
 .about-text .section-line {
   width: 30px;
+  height: 2px; /* Match the height of the underline */
+  background-color: #333;
+  margin: 0 0 10px; /* Adjust margin for spacing */
 }
 
 .about-text p {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 18px; /* Increase the font size for the paragraph */
+  line-height: 1.6; /* Adjust the line height for better readability */
 }
