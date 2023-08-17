@@ -679,8 +679,8 @@ header {
 }
 
 .gmail-logo {
-  width: 30px; /* Adjust the width as needed */
-  height: 30px; /* To maintain a square shape */
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* To maintain a square shape */
   border-radius: 5px; /* Optional: Add rounded corners */
   margin-left: 5%; /* Add some spacing between the LinkedIn and Gmail logos */
 }
@@ -726,7 +726,7 @@ header {
     border-radius: 5px; /* Optional: Add rounded corners */
   }
 }
-  
+
 /* start of work experience section */
 
 .work-card {
