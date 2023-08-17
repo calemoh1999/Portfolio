@@ -648,8 +648,6 @@ header {
   font-size: 24px; /* Adjust the font size for the heading */
   margin-bottom: 10px;
   margin-top: 0; /* Push the heading up by removing default margin */
-  text-decoration: underline; /* Add underline to the heading */
-  text-underline-offset: 5px; /* Adjust the distance between text and underline */
 }
 
 .about-text .section-line {
