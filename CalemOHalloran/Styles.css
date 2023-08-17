@@ -626,11 +626,15 @@ header {
 
 .about-content-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* Change to row */
   align-items: center;
   gap: 20px;
   max-width: 80%;
   margin: 0 auto;
+}
+
+.about-image {
+  width: 40%; /* Adjust the width as needed */
 }
 
 .about-image img {
