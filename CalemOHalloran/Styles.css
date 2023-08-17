@@ -725,6 +725,7 @@ header {
     height: 30px; /* To maintain a square shape */
     border-radius: 5px; /* Optional: Add rounded corners */
   }
+}
   
 /* start of work experience section */
 
@@ -792,4 +793,3 @@ header {
   color: #777; /* Adjust the color to your desired shade of grey */
 }
 
-}
