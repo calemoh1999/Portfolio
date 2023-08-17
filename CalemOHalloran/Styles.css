@@ -707,12 +707,13 @@ header {
   text-align: center;
   background-color: #f8f8f8;
   padding: 30px 0;
+  text-align: center;
 }
 
 .work-experience h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  text-align: center;
+  
 }
 
 .work-experience hr {
