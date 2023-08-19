@@ -179,7 +179,7 @@ header {
     top: -80px; /* Adjust this value to control the gradient height */
     left: 0;
     width: 100%;
-    height: 40px; /* Adjust this value to control the gradient height */
+    height: 80px; /* Adjust this value to control the gradient height */
     background: linear-gradient(to bottom, #f8f8f8, #333333);
   }
 }
