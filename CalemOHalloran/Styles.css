@@ -786,8 +786,8 @@ header {
   align-items: center;
   text-align: center;
   background-color: #f8f8f8;
-  padding-top: 30px 0;
-  padding-bottom: 60px;
+  padding: 30px 0;
+  margin-bottom: 50px;
 }
 
 .work-experience h2 {
