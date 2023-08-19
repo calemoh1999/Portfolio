@@ -726,13 +726,6 @@ header {
   margin-top: 0; /* Push the heading up by removing default margin */
 }
 
-.about-text .section-line {
-  width: 30px;
-  height: 2px; /* Match the height of the underline */
-  background-color: #333;
-  margin: 0 0 10px; /* Adjust margin for spacing */
-}
-
 .about-text p {
   font-size: 18px; /* Increase the font size for the paragraph */
   line-height: 1.6; /* Adjust the line height for better readability */
