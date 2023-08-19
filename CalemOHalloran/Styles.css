@@ -352,16 +352,6 @@ header {
   background-color: #f8f8f8;
 }
 
-.contact-form-section::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 30px; /* Adjust the height as needed */
-  background: linear-gradient(to bottom, transparent, #000); /* Gradient from transparent to footer color */
-  pointer-events: none; /* Prevent interaction with the pseudo-element */
-}
 
 .contact-banner {
   flex: 1;
