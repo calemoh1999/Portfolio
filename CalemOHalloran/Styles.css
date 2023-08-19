@@ -513,39 +513,30 @@ header {
   margin-bottom: 10px;
 }
 
-.education-section hr {
-  border: none;
-  height: 1px;
-  background-color: #333;
-  width: 50%;
-  margin: 0 auto 20px;
-}
-
-.education-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 80%;
+.education-details {
+  max-width: 800px;
   margin: 0 auto;
 }
 
-.education-box {
+.education-item {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  flex: 1;
-  margin: 0 10px;
+  margin: 0 auto 20px;
+  text-align: left;
 }
 
-.education-box h3 {
+.education-item h3 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.education-box p {
+.education-item p {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
+
 
 /* Additional styles for horizontal layout and spacing */
 
