@@ -444,7 +444,7 @@ header {
 .contact-box {
   margin: 10px 0;
   height: 150px; /* Set a fixed height for the contact boxes */
-  width: 100%; /* Make the contact boxes full width */
+  width: 80%; /* Make the contact boxes full width */
 }
 
 /* Contact form section styles */
