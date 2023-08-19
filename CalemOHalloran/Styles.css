@@ -176,7 +176,7 @@ header {
   &:before {
     content: '';
     position: absolute;
-    top: -40px; /* Adjust this value to control the gradient height */
+    top: -80px; /* Adjust this value to control the gradient height */
     left: 0;
     width: 100%;
     height: 40px; /* Adjust this value to control the gradient height */
