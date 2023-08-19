@@ -284,14 +284,6 @@ header {
   margin-bottom: 10px;
 }
 
-.skills-section hr {
-  border: none;
-  height: 1px;
-  background-color: #333;
-  width: 50%;
-  margin: 0 auto 20px;
-}
-
 .skill-card-container {
   display: flex;
   justify-content: space-between;
