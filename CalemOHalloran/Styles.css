@@ -165,8 +165,7 @@ header {
 /* Footer styles */
 
 .footer {
-  background-color: #537b7d; /* Muted teal */
-  color: #ffffff; /* White text for contrast */
+  background-color: #395c7f; /* Muted blue */
   padding: 30px 0;
   font-family: 'Play', sans-serif;
   text-align: center;
@@ -179,7 +178,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   margin: 10px 0;
-  color: gray;
+  color: rgb(255, 255, 255);
   font-size: 0.8em;
 }
 
