@@ -209,17 +209,17 @@ header {
 
 .footer .row a {
   text-decoration: none;
-  color: gray;
+  color: rgb(255, 255, 255);
   transition: 0.3s;
 }
 
 .footer .row a:hover {
-  color: #fff;
+  color: #2b7cff;
 }
 
 @media (max-width: 720px) {
   .footer {
-      text-align: left;
+      text-align: center;
       padding: 20px 5%;
   }
 
