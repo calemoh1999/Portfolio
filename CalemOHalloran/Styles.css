@@ -165,7 +165,8 @@ header {
 /* Footer styles */
 
 .footer {
-  background: #6A5ACD;
+  background-color: #537b7d; /* Muted teal */
+  color: #ffffff; /* White text for contrast */
   padding: 30px 0;
   font-family: 'Play', sans-serif;
   text-align: center;
