@@ -608,11 +608,6 @@ header {
     margin-bottom: 10px;
   }
 
-  .skills-section hr {
-    width: 50%;
-    margin: 0 auto 20px;
-  }
-
   .skill-card-container {
     display: flex;
     flex-direction: column;
