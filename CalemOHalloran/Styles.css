@@ -6,6 +6,18 @@ body {
   box-sizing: border-box; /* Add this line for consistent box-sizing */
 }
 
+/* For Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  /* Additional styling properties like font-weight, color, etc. */
+}
+
+/* For Paragraphs */
+p {
+  font-family: 'Open Sans', sans-serif;
+  /* Additional styling properties like font-weight, color, etc. */
+}
+
 /* Header styles */
 
 header {
