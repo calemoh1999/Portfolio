@@ -67,7 +67,8 @@ header {
 
 .button {
   background-color: #007bff;
-  color: #fff;
+  color: #fff; /* Set the text color to white */
+  text-decoration: none; /* Remove underline */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -75,6 +76,11 @@ header {
   position: relative;
   font-family: 'Merriweather', serif;
   font-weight: bold;
+}
+
+.button a:hover {
+  color: #ff0000; /* Keep the text color white on hover */
+  text-decoration: none; /* Remove underline on hover */
 }
 
 /* Main section styles */
