@@ -168,19 +168,20 @@ header {
   padding: 30px 0;
   font-family: 'Play', sans-serif;
   text-align: center;
-  background: linear-gradient(to bottom, rgba(248, 248, 248, 1), rgba(248, 248, 248, 0) 5%, #333333 5%);
-  color: #ffffff;
-}
+  background-color: #333333; /* Footer background color */
+  position: relative; /* Required for the ::before pseudo-element */
+  z-index: 1; /* Ensure footer content appears above gradient */
 
-.footer::before {
-  content: '';
-  position: absolute;
-  bottom: 100%; /* Start the gradient just above the footer */
-  left: 0;
-  width: 100%;
-  height: 30px; /* Adjust the height of the gradient */
-  background: linear-gradient(to bottom, rgba(248, 248, 248, 0), rgba(248, 248, 248, 1));
-  z-index: -1; /* Place the gradient below the footer content */
+  /* Add the gradient as a pseudo-element */
+  &:before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Adjust this value to control the gradient height */
+    left: 0;
+    width: 100%;
+    height: 10px; /* Adjust this value to control the gradient height */
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0), #333333);
+  }
 }
 
 .footer .row {
