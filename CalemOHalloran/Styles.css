@@ -180,7 +180,7 @@ header {
     left: 0;
     width: 100%;
     height: 20px; /* Adjust this value to control the gradient height */
-    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.2), #333333);
+    background: linear-gradient(to bottom, #f8f8f8, #333333);
   }
 }
 
