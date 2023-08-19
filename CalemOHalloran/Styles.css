@@ -164,26 +164,28 @@ header {
 
 /* Footer styles */
 
+/* Footer styles with gradient */
 .footer {
   padding: 30px 0;
   font-family: 'Play', sans-serif;
   text-align: center;
   background-color: #333333; /* Footer background color */
-  margin-top: -20px; /* Add negative margin to create a gap at the top */
-  position: relative; /* Required for the ::before pseudo-element */
-  z-index: 1; /* Ensure footer content appears above gradient */
-
-  /* Add the gradient as a pseudo-element */
-  &:before {
-    content: '';
-    position: absolute;
-    top: -80px; /* Adjust this value to control the gradient height */
-    left: 0;
-    width: 100%;
-    height: 80px; /* Adjust this value to control the gradient height */
-    background: linear-gradient(to bottom, #f8f8f8, #333333);
-  }
 }
+
+/* Gradient effect below the last section */
+.footer::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Adjust this value to control the gradient height */
+  background: linear-gradient(to bottom, rgba(51, 51, 51, 0.2), #333333);
+  z-index: -1;
+}
+
+/* Rest of your footer styles... */
+
 
 .footer .row {
   display: flex;
