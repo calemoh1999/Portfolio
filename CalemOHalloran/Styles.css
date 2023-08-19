@@ -67,8 +67,8 @@ header {
 
 .button {
   background-color: #007bff;
-  color: #fff; /* Set the text color to white */
-  text-decoration: none; /* Remove underline */
+  color: #fff;
+  text-decoration: none;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -76,12 +76,18 @@ header {
   position: relative;
   font-family: 'Merriweather', serif;
   font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
 }
 
 .button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.button:focus {
+  outline: none;
+}
 
 /* Main section styles */
 
