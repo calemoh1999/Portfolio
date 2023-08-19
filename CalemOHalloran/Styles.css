@@ -169,6 +169,7 @@ header {
   font-family: 'Play', sans-serif;
   text-align: center;
   background-color: #333333; /* Footer background color */
+  margin-top: -20px; /* Add negative margin to create a gap at the top */
   position: relative; /* Required for the ::before pseudo-element */
   z-index: 1; /* Ensure footer content appears above gradient */
 
@@ -338,7 +339,6 @@ header {
   align-items: center;
   padding: 30px;
   background-color: #f8f8f8;
-  padding-bottom: 20px;
 }
 
 
@@ -458,7 +458,6 @@ header {
   text-align: center;
   background-color: #f8f8f8;
   padding: 30px 0;
-  padding-bottom: 20px;
 }
 
 .education-section h2 {
@@ -760,7 +759,6 @@ header {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin: 0 auto 20px;
   max-width: 80%;
-  padding-bottom: 20px;
 }
 
 .work-image {
