@@ -443,6 +443,7 @@ header {
 
 .contact-box {
   margin: 10px 0;
+  height: 150px; /* Set a fixed height for the contact boxes */
 }
 
 /* Contact form section styles */
