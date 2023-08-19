@@ -350,6 +350,7 @@ header {
   align-items: center;
   padding: 30px;
   background-color: #f8f8f8;
+  background: linear-gradient(to bottom, #f8f8f8, #000);
 }
 
 .contact-banner {
@@ -451,6 +452,7 @@ header {
 .contact-form-section {
   flex-direction: column;
   align-items: stretch;
+  background: linear-gradient(to bottom, #f8f8f8, #000);
 }
 
 .contact-banner {
