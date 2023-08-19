@@ -78,10 +78,10 @@ header {
   font-weight: bold;
 }
 
-.button a:hover {
-  color: #ff0000; /* Keep the text color white on hover */
-  text-decoration: none; /* Remove underline on hover */
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
+
 
 /* Main section styles */
 
