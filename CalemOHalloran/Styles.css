@@ -434,6 +434,33 @@ header {
   background-color: #0056b3;
 }
 
+/* Contact section styles */
+@media (max-width: 768px) {
+.contact-box-container {
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.contact-box {
+  margin: 10px 0;
+}
+
+/* Contact form section styles */
+.contact-form-section {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.contact-banner {
+  display: none; /* Hide the banner on mobile */
+}
+
+.contact-form-box {
+  max-width: 100%;
+  margin-top: 20px;
+}
+}
+
 /* Education section styles */
 
 .education-section {
