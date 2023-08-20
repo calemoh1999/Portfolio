@@ -25,6 +25,7 @@ p {
   background-color: #f8f8f8;
   display: flex;
   justify-content: space-between;
+  height: 80px;
   align-items: center;
   padding: 5px 20px;
   position: sticky;
