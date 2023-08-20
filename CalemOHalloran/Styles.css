@@ -46,18 +46,17 @@ p {
   list-style: none;
 }
 .nav-menu a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 5px 10px;
   margin-right: auto;
   transition: color 0.3s ease;
 }
 ul:hover a {
-  color: grey;
+  color: #007bff;
 }
 .nav-menu a:hover {
-  color: goldenrod;
-  text-decoration: underline;
+  color: #007bff;
   cursor: pointer;
 }
 .hamburgermenu {
@@ -71,7 +70,7 @@ ul:hover a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: #007bff;
 }
 
 /* Button styles */
