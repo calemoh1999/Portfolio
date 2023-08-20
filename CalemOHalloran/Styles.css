@@ -104,36 +104,40 @@ ul:hover a {
 }
 
 @media(max-width:768px) {
-  .hamburgermenu{
-      display: block;
+  .hamburgermenu {
+    display: block;
   }
-  .hamburgermenu.active .line:nth-child(2){
-      opacity: 0;
+  .hamburgermenu.active .line:nth-child(2) {
+    opacity: 0;
   }
-  .hamburgermenu.active .line:nth-child(1){
-      transform: translateY(8px) rotate(45deg);
+  .hamburgermenu.active .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
   }
-  .hamburgermenu.active .line:nth-child(3){
-      transform: translateY(-8px) rotate(-45deg);
+  .hamburgermenu.active .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
-  .nav-menu{
-      position: fixed;
-      left: -100%;
-      top: 40px;
-      gap: 0;
-      flex-direction: column;
-      background-color: #f8f8f8;
-      width: 100%;
-      text-align: center;
-      transition: 0.3s;
+  .nav-menu {
+    /* Remove position and left properties */
+    top: 80px; /* Adjust this value based on your header height */
+    gap: 0;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    /* Add padding to push content down as menu expands */
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  .nav-item{
-      margin: 20px 0;
+  .nav-item {
+    margin: 20px 0;
   }
-  .nav-menu.active{
-      left:0;
-  }}
-  
+  .nav-menu.active {
+    /* Change left to top */
+    top: 100%; /* Pushes the menu down from the top */
+  }
+}
+
 /* Main section styles */
 
 .main-section {
