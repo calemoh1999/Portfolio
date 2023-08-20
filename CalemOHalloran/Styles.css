@@ -129,13 +129,17 @@ ul:hover a {
     /* Add padding to push content down as menu expands */
     padding-top: 20px;
     padding-bottom: 20px;
+    /* Adjust transform for coming in from above and dropping down */
+    transform: translateY(-100%);
+    position: absolute;
+    z-index: 1;
   }
   .nav-item {
     margin: 20px 0;
   }
   .nav-menu.active {
-    /* Change left to top */
-    top: 100%; /* Pushes the menu down from the top */
+    /* Adjust transform for dropping down */
+    transform: translateY(0);
   }
 }
 
