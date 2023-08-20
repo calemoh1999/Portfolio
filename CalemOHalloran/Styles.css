@@ -135,6 +135,7 @@ ul:hover a {
   }
   .nav-menu.active {
     max-height: 500px; /* Adjust this value based on your content height */
+    margin: 0; /* Add this line */
   }
 }
 
