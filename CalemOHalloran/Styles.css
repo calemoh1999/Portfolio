@@ -40,7 +40,7 @@ p {
   font-family:'Merriweather', serif;
   justify-content: space-evenly;
   width: 50%;
-  font-size: large;
+  font-size: 36px;
 }
 .nav-menu li {
   list-style: none;
@@ -118,7 +118,7 @@ ul:hover a {
       top: 40px;
       gap: 0;
       flex-direction: column;
-      background-color: #191919;
+      background-color: #f8f8f8;
       width: 100%;
       text-align: center;
       transition: 0.3s;
