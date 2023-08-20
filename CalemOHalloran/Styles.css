@@ -183,13 +183,6 @@ header {
   /* Add any other styles you need for the mobile version */
 }
 
-/* Styles for laptop/desktop view */
-@media (min-width: 769px) {
-  .menu-button-container {
-    display: none;
-  }
-}
-
 
 /* Main section styles */
 
