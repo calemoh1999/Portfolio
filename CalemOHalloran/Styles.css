@@ -26,7 +26,7 @@ header {
   align-items: center;
   background-color: #f8f8f8;
   padding: 20px;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto; /* Center the content horizontally */
   box-sizing: border-box; /* Add this line for consistent box-sizing */
   font-family: 'Merriweather', serif;
