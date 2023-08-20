@@ -37,7 +37,7 @@ p {
 }
 .nav-menu {
   display: flex;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-family:'Merriweather', serif;
   justify-content: space-evenly;
   width: 50%;
   font-size: large;
