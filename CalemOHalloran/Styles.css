@@ -91,8 +91,6 @@ header {
 
 /* Your existing styles for the header */
 
-/* Your existing styles for the header */
-
 /* Styles for mobile view */
 @media (max-width: 768px) {
   .options {
@@ -156,9 +154,12 @@ header {
   
   .menu {
     display: none;
-    flex-direction: column;
-    list-style-type: none;
-    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    z-index: 1;
     padding: 0;
   }
   
@@ -173,7 +174,6 @@ header {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: #222;
   }
   
   .menu > li:not(:last-child) {
@@ -182,6 +182,14 @@ header {
   
   /* Add any other styles you need for the mobile version */
 }
+
+/* Styles for laptop/desktop view */
+@media (min-width: 769px) {
+  .menu-button-container {
+    display: none;
+  }
+}
+
 
 /* Main section styles */
 
