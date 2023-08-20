@@ -705,8 +705,8 @@ ul:hover a {
 }
 /* Hide elements in header for mobile devices */
 @media (max-width: 768px) {
-  .logo {
-    display: none; /* Hide the logo */
+  .button {
+    display: none; /* Hide the button */
   }
 
 }
