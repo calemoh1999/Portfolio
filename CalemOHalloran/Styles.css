@@ -91,6 +91,8 @@ header {
 
 /* Your existing styles for the header */
 
+/* Your existing styles for the header */
+
 /* Styles for mobile view */
 @media (max-width: 768px) {
   .options {
@@ -153,11 +155,15 @@ header {
   }
   
   .menu {
-    display: flex;
+    display: none;
     flex-direction: column;
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+  
+  #menu-toggle:checked ~ .menu {
+    display: block;
   }
   
   .menu > li {
