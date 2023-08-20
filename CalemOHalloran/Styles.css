@@ -125,21 +125,18 @@ ul:hover a {
     background-color: #f8f8f8;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
-    /* Add padding to push content down as menu expands */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    /* Adjust transform for coming in from above and dropping down */
-    transform: translateY(-100%);
-    position: absolute;
-    z-index: 1;
+    transition: max-height 0.3s ease-in-out;
+    max-height: 0; /* Initially hidden */
+    overflow: hidden;
   }
   .nav-item {
     margin: 20px 0;
   }
   .nav-menu.active {
-    /* Adjust transform for dropping down */
-    transform: translateY(0);
+    max-height: 500px; /* Adjust this value based on your content height */
+    /* Additional styles for expanding */
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
