@@ -32,7 +32,8 @@ p {
   top: 0;
 }
 .top-crest img {
-  height: 60px;
+  width: 200px;
+  height: auto;
   padding-top: 10px;
 }
 .nav-menu {
