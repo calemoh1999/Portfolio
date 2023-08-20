@@ -118,28 +118,14 @@ ul:hover a {
     transform: translateY(-8px) rotate(-45deg);
   }
   .nav-menu {
-    /* Remove position and left properties */
+    /* Reset previous styles */
+    position: fixed;
     top: 100%; /* Start from the bottom of the header */
     left: 0; /* Cover the full width */
-    position: fixed; /* Position it at the top of the screen */
-    display: flex;
-    flex-direction: column;
     background-color: #f8f8f8;
     width: 100%;
     text-align: center;
-    transition: max-height 0.3s ease-in-out;
-    max-height: 0; /* Initially hidden */
-    overflow: hidden;
-    z-index: 1; /* Ensure the menu is above other content */
-  }
-  .nav-item {
-    margin: 20px 0;
-  }
-  .nav-menu.active {
-    max-height: 500px; /* Adjust this value based on your content height */
-    /* Additional styles for expanding */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    transition: top 0.3s ease-in-out;
   }
 }
 
