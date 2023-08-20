@@ -89,8 +89,6 @@ header {
   outline: none;
 }
 
-/* Your existing CSS... */
-
 /* Media query for mobile hamburger menu */
 @media (max-width: 768px) {
   /* Hide desktop navigation options */
@@ -102,7 +100,7 @@ header {
   .mobile-menu-button {
       display: block;
       text-align: center;
-      margin: auto;
+      margin-right: 20px; /* Add some spacing from the right */
       padding: 10px;
       cursor: pointer;
   }
@@ -110,6 +108,12 @@ header {
   /* Hide mobile menu by default */
   .mobile-menu {
       display: none;
+      position: absolute;
+      top: 60px; /* Adjust the position as needed */
+      right: 20px; /* Adjust the position as needed */
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
   
   /* Display mobile menu when active class is present */
