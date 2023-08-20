@@ -119,8 +119,10 @@ ul:hover a {
   }
   .nav-menu {
     /* Remove position and left properties */
-    top: 80px; /* Adjust this value based on your header height */
-    gap: 0;
+    top: 100%; /* Start from the bottom of the header */
+    left: 0; /* Cover the full width */
+    position: fixed; /* Position it at the top of the screen */
+    display: flex;
     flex-direction: column;
     background-color: #f8f8f8;
     width: 100%;
@@ -128,6 +130,7 @@ ul:hover a {
     transition: max-height 0.3s ease-in-out;
     max-height: 0; /* Initially hidden */
     overflow: hidden;
+    z-index: 1; /* Ensure the menu is above other content */
   }
   .nav-item {
     margin: 20px 0;
