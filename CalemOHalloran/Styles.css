@@ -122,10 +122,9 @@ ul:hover a {
     position: absolute;
     top: 100%; /* Start from the bottom of the header */
     left: 0;
-    background-color: #a79d9d;
+    background-color: #f8f8f8;
     width: 100%;
     text-align: center;
-    padding-top: 20px; /* Add padding to push content down */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
