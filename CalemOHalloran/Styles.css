@@ -89,6 +89,35 @@ header {
   outline: none;
 }
 
+/* Your existing CSS... */
+
+/* Media query for mobile hamburger menu */
+@media (max-width: 768px) {
+  /* Hide desktop navigation options */
+  #desktop-nav {
+      display: none;
+  }
+  
+  /* Style the mobile menu button */
+  .mobile-menu-button {
+      display: block;
+      text-align: center;
+      margin: auto;
+      padding: 10px;
+      cursor: pointer;
+  }
+  
+  /* Hide mobile menu by default */
+  .mobile-menu {
+      display: none;
+  }
+  
+  /* Display mobile menu when active class is present */
+  .mobile-menu.active {
+      display: block;
+  }
+}
+
 /* Main section styles */
 
 .main-section {
@@ -667,6 +696,7 @@ header {
     display: none; /* Hide the logo */
   }
 
+}
 
 /* Add this CSS to your existing styles */
 .about-section {
