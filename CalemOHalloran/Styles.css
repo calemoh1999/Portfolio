@@ -667,14 +667,6 @@ header {
     display: none; /* Hide the logo */
   }
 
-  .options {
-    display: none; /* Hide the navigation options */
-  }
-
-  .button {
-    display: none; /* Hide the "Get in Touch" button */
-  }
-}
 
 /* Add this CSS to your existing styles */
 .about-section {
