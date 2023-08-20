@@ -119,13 +119,23 @@ ul:hover a {
   }
   .nav-menu {
     /* Reset previous styles */
-    position: fixed;
+    position: absolute;
     top: 100%; /* Start from the bottom of the header */
-    left: 0; /* Cover the full width */
-    background-color: #f8f8f8;
+    left: 0;
+    background-color: #a79d9d;
     width: 100%;
     text-align: center;
-    transition: top 0.3s ease-in-out;
+    padding-top: 20px; /* Add padding to push content down */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    z-index: 1; /* Ensure the menu is displayed above content */
+  }
+  .nav-item {
+    margin: 20px 0;
+  }
+  .nav-menu.active {
+    max-height: 500px; /* Adjust this value based on your content height */
   }
 }
 
