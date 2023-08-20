@@ -1,9 +1,8 @@
-// Get the mobile menu button and the mobile menu itself
-const mobileMenuButton = document.querySelector('.mobile-menu-button');
-const mobileMenu = document.querySelector('.mobile-menu');
+// Get the menu toggle checkbox
+const menuToggle = document.getElementById('menu-toggle');
+const optionsMenu = document.querySelector('.options');
 
-// Add a click event listener to the mobile menu button
-mobileMenuButton.addEventListener('click', () => {
-    // Toggle the 'active' class on the mobile menu
-    mobileMenu.classList.toggle('active');
+// Add an event listener to toggle the menu on checkbox change
+menuToggle.addEventListener('change', () => {
+  optionsMenu.classList.toggle('show-options', menuToggle.checked);
 });

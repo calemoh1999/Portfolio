@@ -89,37 +89,92 @@ header {
   outline: none;
 }
 
-/* Media query for mobile hamburger menu */
+/* Your existing styles for the header */
+
+/* Styles for mobile view */
 @media (max-width: 768px) {
-  /* Hide desktop navigation options */
-  #desktop-nav {
-      display: none;
+  .options {
+    display: none;
   }
   
-  /* Style the mobile menu button */
-  .mobile-menu-button {
-      display: block;
-      text-align: center;
-      margin-right: 20px; /* Add some spacing from the right */
-      padding: 10px;
-      cursor: pointer;
+  .logo {
+    text-align: center;
   }
   
-  /* Hide mobile menu by default */
-  .mobile-menu {
-      display: none;
-      position: absolute;
-      top: 60px; /* Adjust the position as needed */
-      right: 20px; /* Adjust the position as needed */
-      background-color: #ffffff;
-      border-radius: 5px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  .button {
+    display: block;
+    margin: 0 auto;
   }
   
-  /* Display mobile menu when active class is present */
-  .mobile-menu.active {
-      display: block;
+  .menu-button-container {
+    display: block;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+  }
+  
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+  
+  /* Add any other styles you need for the mobile version */
 }
 
 /* Main section styles */
