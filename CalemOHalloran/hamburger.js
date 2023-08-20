@@ -1,8 +1,14 @@
-// Get the menu toggle checkbox
-const menuToggle = document.getElementById('menu-toggle');
-const optionsMenu = document.querySelector('.options');
+"use strict";
+// HAMBURGER MENU //
+const hamburgermenu = document.querySelector('.hamburgermenu');
+const navMenu = document.querySelector('.nav-menu');
 
-// Add an event listener to toggle the menu on checkbox change
-menuToggle.addEventListener('change', () => {
-  optionsMenu.classList.toggle('show-options', menuToggle.checked);
-});
+hamburgermenu.addEventListener('click', () => {
+  hamburgermenu.classList.toggle('active');
+  navMenu.classList.toggle('active');
+})
+document.querySelectorAll(".nav-link").forEach(n => n.
+addEventListener("click", () => {
+        hamburgermenu.classList.remove("active");
+        navMenu.classList.remove("active");
+}));
