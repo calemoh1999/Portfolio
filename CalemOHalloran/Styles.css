@@ -131,6 +131,7 @@ ul:hover a {
     z-index: 1;
     /* Change flex-direction to column */
     flex-direction: column; /* Add this line */
+    align-items: center; /* Add this line */
   }
   .nav-item {
     margin: 20px 0;
@@ -141,6 +142,7 @@ ul:hover a {
    margin: 0;
     /* Change flex-direction to column */
     flex-direction: column; /* Add this line */
+    align-items: center; /* Add this line */
   }
 }
 
