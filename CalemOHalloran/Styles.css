@@ -120,7 +120,7 @@ ul:hover a {
   .nav-menu {
     /* Reset previous styles */
     position: absolute;
-    top: 100%; /* Start from the bottom of the header */
+    top: 80px;
     left: 0;
     background-color: #f8f8f8;
     width: 100%;
@@ -128,16 +128,22 @@ ul:hover a {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
-    z-index: 1; /* Ensure the menu is displayed above content */
+    z-index: 1;
+    /* Change flex-direction to column */
+    flex-direction: column; /* Add this line */
   }
   .nav-item {
     margin: 20px 0;
   }
   .nav-menu.active {
-    max-height: 500px; /* Adjust this value based on your content height */
-    margin: 0; /* Add this line */
+    max-height: 500px;
+    /* Additional styles for expanding */
+   margin: 0;
+    /* Change flex-direction to column */
+    flex-direction: column; /* Add this line */
   }
 }
+
 
 /* Main section styles */
 
