@@ -132,17 +132,19 @@ ul:hover a {
     /* Change flex-direction to column */
     flex-direction: column; /* Add this line */
     align-items: center; /* Add this line */
+    justify-content: center; /* Horizontally center content */
   }
   .nav-item {
     margin: 20px 0;
   }
   .nav-menu.active {
-    max-height: 500px;
+    height: 500px; 
     /* Additional styles for expanding */
    margin: 0;
     /* Change flex-direction to column */
     flex-direction: column; /* Add this line */
     align-items: center; /* Add this line */
+    justify-content: center; /* Horizontally center content */
   }
 }
 
