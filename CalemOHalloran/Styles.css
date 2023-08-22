@@ -30,9 +30,10 @@ p {
   top: 0;
 }
 .top-crest img {
-  width: 300px;
+  width: 250px; /* Adjust width as needed */
   height: auto;
   padding: 10px;
+  margin-left: 20px; /* Add margin to push it to the left */
 }
 
 .nav-menu {
@@ -95,7 +96,7 @@ p {
   color: #fff;
   text-decoration: none;
   padding: 10px 20px;
-  padding-right: 30px;
+  margin-right: 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
