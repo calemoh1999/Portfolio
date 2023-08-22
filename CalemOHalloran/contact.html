@@ -4,7 +4,7 @@
     <title>Calem O'Halloran's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="images/Logo.png" type="image/png=xml">
+    <link rel="shortcut icon" href="images/Logo3.png" type="image/png=xml">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
 
@@ -18,21 +18,34 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="Index.html">
-            <img src="images/Logo.png" alt="OpenAI Logo">
+        <nav class="navbar">
+          <div class="top-crest">
+            <a href="index.html">
+              <img src="images/logo3.png" alt="Logo">
             </a>
-        </div>
-        <nav class="options">
-            <div class="option"><a href="index.html">Home</a></div>
-            <div class="option"><a href="about.html">About</a></div>
-            <div class="option"><a href="contact.html">Contact</a></div>
-        </nav>
-        <button class="button" onclick="window.location.href='mailto:calemohalloran99@gmail.com';">
+          </div>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <button class="button" onclick="window.location.href='mailto:calemohalloran99@gmail.com';">
             Get in Touch
           </button>
-          
-    </header>
+          <div class="hamburgermenu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </nav>
+      </header>
+      
    <!-- The rest of your website content goes here -->
    <section class="contact-section">
     <h2>Contact</h2>
