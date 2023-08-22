@@ -155,6 +155,10 @@ p {
     top: 80px; /* Stick to just below the header */
   }
 
+  .nav-menu.active li.nav-item a {
+  font-size: 18px; /* Adjust font size as needed */
+}
+
   .nav-item {
     margin: 20px 0;
   }
