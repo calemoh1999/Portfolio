@@ -123,6 +123,7 @@ p {
 @media(max-width:768px) {
   .hamburgermenu{
       display: block;
+      margin-right: 10px; /* Add a bit of margin to push it in */
   }
   .hamburgermenu.active .line:nth-child(2){
       opacity: 0;
