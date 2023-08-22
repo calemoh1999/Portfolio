@@ -139,7 +139,7 @@ p {
     /* ... existing styles ... */
     position: absolute;
     left: 50%; /* Center horizontally */
-    bottom: -100%; /* Start off-screen */
+    top: -100%; /* Start off-screen */
     transform: translate(-50%, 0); /* Center horizontally */
     gap: 0;
     flex-direction: column;
@@ -150,9 +150,8 @@ p {
   }
 
   .nav-menu.active {
-    bottom: 0; /* Stick to the bottom of the header */
+    top: 100%; /* Stick to just below the header */
   }
-  
 
  .nav-item{
       margin: 20px 0;
