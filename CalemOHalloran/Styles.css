@@ -152,6 +152,7 @@ p {
   .nav-menu.active {
     top: 100%; /* Stick to just below the header */
   }
+}
 
  .nav-item{
       margin: 20px 0;
