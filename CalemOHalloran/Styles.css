@@ -39,15 +39,18 @@ p {
 .nav-menu {
   /* ... */
   font-size: 28px;
-  width: 100%; /* Occupy the entire width of the header */
+  width: 100%;
   display: flex;
   font-family: 'Merriweather', serif;
-  align-items: center; /* Center items vertically */
-  justify-content: space-around; /* Spread items evenly */
-  gap: 10px; /* Adjust spacing between items as needed */
+  align-items: center;
+  justify-content: space-between; /* Adjust this value */
   background-color: #f8f8f8;
   text-align: center;
   transition: 0.3s;
+}
+
+.nav-item {
+  margin: 0 15px; /* Adjust margin as needed */
 }
 
 .nav-menu li {
