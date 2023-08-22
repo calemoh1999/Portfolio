@@ -48,6 +48,7 @@ p {
   justify-content: center; /* Center all the items horizontally */
   background-color: #f8f8f8;
   text-align: center;
+  margin-left: auto; /* Push the navigation menu to the right */
   transition: 0.3s;
 }
 
