@@ -34,6 +34,8 @@ p {
   height: auto;
   padding: 10px;
   margin-left: 20px; /* Add margin to push it to the left */
+  position: relative; /* Set position to relative to allow z-index */
+  z-index: 2; /* Bring the top crest in front of other elements */
 }
 
 .nav-menu {
