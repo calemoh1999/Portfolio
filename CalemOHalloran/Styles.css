@@ -153,6 +153,7 @@ p {
 
   .nav-menu.active {
     top: 80px; /* Stick to just below the header */
+    position: fixed; /* Keep the position fixed when active */
   }
 
   .nav-menu.active li.nav-item a {
