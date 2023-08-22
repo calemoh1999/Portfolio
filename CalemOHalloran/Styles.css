@@ -37,9 +37,7 @@ p {
 }
 
 .nav-menu {
-  /* ... */
-  margin: 0; /* Remove default margin */
-  padding-left: 0; /* Remove default padding */
+  /* ... other existing styles ... */
   font-size: 28px;
   width: 100%;
   display: flex;
@@ -48,12 +46,14 @@ p {
   justify-content: center; /* Center all the items horizontally */
   background-color: #f8f8f8;
   text-align: center;
-  margin-left: auto; /* Push the navigation menu to the right */
   transition: 0.3s;
+  position: absolute; /* Position the menu in the middle */
+  left: 50%; /* Move the menu to the horizontal center */
+  transform: translateX(-50%); /* Adjust for centering */
 }
 
 .nav-item {
-  margin: 0 20px; /* Adjust margin as needed */
+  margin: 0 30px; /* Adjust margin as needed */
 }
 
 
