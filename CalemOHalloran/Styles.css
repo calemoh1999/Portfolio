@@ -147,6 +147,7 @@ p {
     background-color: #f8f8f8;
     width: 100%;
     text-align: center;
+    padding-left: 0;
     transition: 0.3s;
   }
 
