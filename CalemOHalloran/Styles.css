@@ -59,7 +59,6 @@ p {
 .nav-menu a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  padding: 5px 10px;
   margin-right: auto;
   transition: color 0.3s ease;
 }
