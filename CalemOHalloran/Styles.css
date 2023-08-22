@@ -135,10 +135,11 @@ p {
       transform: translateY(-8px) rotate(-45deg);
   }
 
-   .nav-menu {
-    position: fixed;
+  .nav-menu {
+    /* ... existing styles ... */
+    position: absolute;
     left: 50%; /* Center horizontally */
-    top: -100%; /* Start off-screen */
+    bottom: -100%; /* Start off-screen */
     transform: translate(-50%, 0); /* Center horizontally */
     gap: 0;
     flex-direction: column;
@@ -149,8 +150,9 @@ p {
   }
 
   .nav-menu.active {
-    top: 50%; /* Center vertically */
+    bottom: 0; /* Stick to the bottom of the header */
   }
+  
 
  .nav-item{
       margin: 20px 0;
