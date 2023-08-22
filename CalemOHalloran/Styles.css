@@ -35,14 +35,19 @@ p {
   height: auto;
   padding: 10px;
 }
+
 .nav-menu {
   /* ... */
-  font-size: 28px; /* Adjust this value as needed */
-  width: auto; /* Change to auto to make width relative to content */
+  font-size: 28px;
+  width: 100%; /* Occupy the entire width of the header */
   display: flex;
-  font-family:'Merriweather', serif;
-  align-items: right;
-  margin-right: 30px; /* Add some spacing between menu and button */
+  font-family: 'Merriweather', serif;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Spread items evenly */
+  gap: 10px; /* Adjust spacing between items as needed */
+  background-color: #f8f8f8;
+  text-align: center;
+  transition: 0.3s;
 }
 
 .nav-menu li {
@@ -133,7 +138,7 @@ ul:hover a {
   .nav-menu.active{
       left:0;
   }}
-  
+
 /* Main section styles */
 
 .main-section {
