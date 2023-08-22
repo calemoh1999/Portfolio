@@ -134,11 +134,12 @@ p {
   .hamburgermenu.active .line:nth-child(3){
       transform: translateY(-8px) rotate(-45deg);
   }
-  
-  .nav-menu {
+
+   .nav-menu {
     position: fixed;
-    left: 0;
+    left: 50%; /* Center horizontally */
     top: -100%; /* Start off-screen */
+    transform: translate(-50%, 0); /* Center horizontally */
     gap: 0;
     flex-direction: column;
     background-color: #f8f8f8;
@@ -148,7 +149,7 @@ p {
   }
 
   .nav-menu.active {
-    top: 0; /* Slide the menu down into view */
+    top: 50%; /* Center vertically */
   }
 
  .nav-item{
