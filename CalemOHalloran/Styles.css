@@ -43,7 +43,7 @@ p {
   display: flex;
   font-family: 'Merriweather', serif;
   align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Spread items evenly */
+  justify-content: space-around; /* Spread items evenly */
   gap: 10px; /* Adjust spacing between items as needed */
   background-color: #f8f8f8;
   text-align: center;
