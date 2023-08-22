@@ -160,16 +160,6 @@ p {
   }
 }
 
-body.menu-open {
-  overflow: hidden; /* Prevent scrolling when menu is open */
-  position: relative; /* Allow absolute positioning of nav menu */
-}
-
-body.menu-open .nav-menu.active {
-  top: 80px; /* Stick to just below the header */
-}
-
-
 /* Main section styles */
 
 .main-section {
