@@ -134,24 +134,26 @@ p {
   .hamburgermenu.active .line:nth-child(3){
       transform: translateY(-8px) rotate(-45deg);
   }
-  .nav-menu{
-      position: fixed;
-      left: -100%;
-      top: 40px;
-      gap: 0;
-      flex-direction: column;
-      background-color: #f8f8f8;
-      width: 100%;
-      text-align: center;
-      transition: 0.3s;
+  
+  .nav-menu {
+    position: fixed;
+    left: 0;
+    top: -100%; /* Start off-screen */
+    gap: 0;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
   }
-  .nav-item{
+
+  .nav-menu.active {
+    top: 0; /* Slide the menu down into view */
+  }
+
+ .nav-item{
       margin: 20px 0;
   }
-  .nav-menu.active{
-      left:0;
-  }}
-
 /* Main section styles */
 
 .main-section {
