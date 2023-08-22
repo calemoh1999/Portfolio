@@ -38,6 +38,7 @@ p {
 .nav-menu {
   /* ... */
   margin: 0; /* Remove default margin */
+  padding-left: 0; /* Remove default padding */
   font-size: 28px;
   width: 100%;
   display: flex;
